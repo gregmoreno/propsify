@@ -1,0 +1,24 @@
+:plain
+  Hello, #{@created_for.first_name}.
+
+  First, thank you for giving us the opportunity to serve you.
+  If, for any reason, you did not have a pleasant experience with
+  us, give us a call and we will find a way to make it up to you.
+
+  But if you were delighted with us, I would like to ask a favor.
+  Can you give a short recommendation that we can share with our
+  staff and customers?
+
+  You can add your recommendation by clicking the link below:
+
+      #{@invitation_url}
+
+  #{render :partial => 'notifier/link_note'}
+
+  Thank for your time and hope to hear from you soon.
+
+  Best regards,
+
+  #{render :partial => 'notifier/voteable_info'}
+  
+  #{render :partial => 'notifier/tagline'} 

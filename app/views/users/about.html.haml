@@ -1,0 +1,21 @@
+= render 'banner'
+
+- tabbed_column(:id => 'user_details') do 
+  = render 'tab_links'  
+
+  .tabbed_content
+    - main_column do
+      .wrapper
+        .textbox
+          = render(:partial => 'profiles/profile', :object => @user.profile) if @user.profile
+        .textbox
+          = user_description(@user)
+
+    - side_column do
+      .wrapper
+        .comments
+          - @user.comments.each do |comment|
+            = render 'comments/comment', :object => comment 
+
+
+

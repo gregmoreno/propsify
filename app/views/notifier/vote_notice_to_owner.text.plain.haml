@@ -1,0 +1,18 @@
+:plain
+  Hello, #{@voteable.owner.name}.
+
+  Good news!
+
+  #{@voter.name} has posted a recommendation for #{@voteable.name}.
+  
+  You can view the recommendation by clicking the link below:
+
+      #{@vote_url}
+
+  #{render :partial => 'notifier/link_note'}
+
+  Best regards,
+
+  The Propsify Team
+
+  #{render :partial => 'notifier/tagline'}

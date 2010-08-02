@@ -1,0 +1,39 @@
+u1:
+  id:   1
+  name: Dax
+  email: dax@test.com
+  login: dax@test.com
+
+u2:
+  id:   2
+  name: Gabo
+  email: gabo@test.com
+  login: gabo@test.com
+
+u3:
+  id:   3
+  name: Migz
+  email: migz@test.com
+  login: migz@test.com
+
+u4:
+  id:   4
+  name: Ancie
+  email: ancie@test.com
+  login: ancie@test.com
+
+u5:
+  id: 5
+  name: Jerm
+  email: jerm@test.com
+  login: jerm@test.com
+
+u6:
+  id: 6
+  name: Budoy
+  email: budoy@test.com
+  login: budoy@test.com
+
+
+anonymous:
+  id:   999

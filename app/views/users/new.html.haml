@@ -1,0 +1,14 @@
+- main_column do
+  %h3 Create a new account to add your business
+  %p.note= "If you already have an account, #{link_to('login here', login_path)}."
+
+  = render :partial => 'form'
+
+
+  %h4 The Fine Print
+  %p
+    By signing up, you are indicating that you have read, 
+    = "understood, and agree to #{site_name}’s User Agreement and Privacy Policy." 
+    %strong
+      We know you won't read them but our lawyers forced us to include this notice.
+

@@ -1,0 +1,52 @@
+- single_column(:id => 'user_banner') do
+  .photo.span-3
+    .wrapper
+      .photo
+        = image_tag 'icon_no_photo.gif'
+  
+  .brief.span-16
+    .wrapper
+      %h1.name= fancy_lead user_name(@user)
+      %h3.title= user_title(@user)
+      - if current_user and current_user.can.edit?(@user)
+        = link_to 'edit', edit_user_profile_path(@user, @user.profile)
+  .rating.span-5
+    .wrapper
+      = render 'rating'
+
+
+  -# TODO: tab list should be in partial
+- tabbed_column(:id => 'user_details') do 
+  %ul.tab 
+    %li 
+      %a{:href => '#', :class => 'active'}
+        %span.left
+        = user_name(@user)
+        %span.right
+    %li 
+      %a{:href => '#'}
+        %span.left
+        Location
+        %span.right
+
+  .wrapper
+    - main_column do
+      .textbox
+        = user_description(@user)
+        = render(:partial => 'profiles/profile', :object => @user.profile) if @user.profile
+
+      #locations
+        %h4= "How to reach #{user_name(@user)}"
+        -# Hmmn. :locals does not seem to work w/o :partial
+        =# render :partial => 'locations/listing', :locals => {:user => @user}
+    
+    - side_column do
+      #comments.styled
+        %h3
+          What people are saying...
+        %ul
+        - @user.comments.each do |comment|
+          = render 'comments/comment', :object => comment 
+
+
+

@@ -1,0 +1,31 @@
+
+.actions
+  - if current_user
+    %span.item.first
+      Welcome
+      %strong
+        = user_name(current_user)
+
+    - if permitted_to?(:list, :workspaces)
+      %span.item
+        = link_to('Businesses', workspaces_path)
+    %span.item
+      = link_to('Recommendations', user_path(current_user, :permalink => true))
+    - if permitted_to?(:read, :users)
+      %span.item
+        = link_to('Users', users_path)
+    %span.item
+      = link_to 'Settings', edit_settings_path
+    %span.last.item
+      = link_to('Logout', logout_path)
+  - else
+    %span.item.first
+      = link_to('Add your Business', signup_path)
+    %span.item
+      About Us
+    %span.item
+      FAQ
+    %span.item.last
+      = link_to('Login', login_path)
+
+  = render 'layouts/search_bar'

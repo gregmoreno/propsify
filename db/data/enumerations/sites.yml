@@ -1,0 +1,25 @@
+--- 
+propsify_com: 
+  id:     1
+  name:   Propsify
+  domain: propsify.com 
+
+propsify_ca:
+  id:     2
+  name:   Propsify
+  domain: propsify.ca 
+
+healthbuff_ca: 
+  id:     3
+  name:   HealthBuff
+  domain: healthbuff.ca
+
+propsify_dev: 
+  id:     1000
+  name:   Propsify
+  domain: propsify.dev 
+
+healthbuff_dev:
+  id:     1001
+  name:   HealthBuff
+  domain: healthbuff.dev

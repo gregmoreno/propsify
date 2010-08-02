@@ -1,0 +1,15 @@
+- single_column(:id => 'user_banner') do
+  .photo.span-3
+    .wrapper
+      .photo
+        = image_tag 'icon_no_photo.gif'
+  
+  .brief.span-16
+    .wrapper
+      %h1.name= fancy_lead user_name(@user)
+      %h3.title= user_title(@user)
+      - if current_user and current_user.can.edit?(@user)
+        = link_to 'edit', edit_user_profile_path(@user, @user.profile)
+  .rating.span-5
+    .wrapper
+      = render 'rating'

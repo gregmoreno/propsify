@@ -1,0 +1,27 @@
+- single_column(:class => 'topfold') do
+  %table{:cellpadding => 0, :cellspacing => 0, :border => 0, :width => '100%'}
+    %tr
+      %td{:width => "70%"}
+        %h2= voteable_name(@voteable)
+        %p.actions
+        = link_to('&laquo; Return to listing', voteables_path(@voteable)) 
+      %td
+        = render :partial => 'ratings/info', :locals => { :voteable => @voteable }
+
+- main_column do
+  %h4 Paste this code on your website 
+  %p
+    Copy the following code, then paste it onto every page you want to
+    show your recommendations. 
+    %br
+    Paste it immediately before the
+    %strong 
+      = html_escape('</body>') 
+    tag.
+
+  %p
+    = text_area_tag :widget, default_widget_code(@voteable), :rows => 20, :style => "width: 90%", :wrap => 'off'
+
+- sidebar_column do
+  Show example
+

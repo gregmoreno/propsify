@@ -1,0 +1,8 @@
+%table.profile
+  - [:specialties, :certifications, :affiliations, :trainings, :educations, :languages].each do |f|
+    - unless profile.send(f).blank?
+      %tr 
+        %td.label
+          = f.to_s.titleize
+        %td.content
+          = textilize(profile.send(f))

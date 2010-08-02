@@ -1,0 +1,5 @@
+- if current_user.role == :staff
+  Sort: 
+  - ['Recently Created', 'Recently Updated', 'Most Recommended', 'Least recommended', 'By name'].each do |option|
+    = link_to(option, workspaces_path(:sorted => option.gsub(/\s/, '_').downcase))
+

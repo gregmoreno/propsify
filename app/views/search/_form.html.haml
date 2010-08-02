@@ -1,0 +1,12 @@
+/
+  #topbar
+    .wrapper
+      #search
+        %a#toggle_cities
+          Show other cities
+        = render :partial => 'search/cities'
+        - form_tag search_path, {:method => :get} do |f|
+          = text_field_tag 'q', (@keywords.join(' ') if @keywords), :id => 'q'
+          = hidden_field_tag 'city', City.current.name.parameterize if City.current
+          = image_submit_tag 'buttons/search.gif', :class => 'button'
+

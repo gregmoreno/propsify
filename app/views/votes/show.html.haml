@@ -1,0 +1,32 @@
+- @page_title, @page_desc = vote_page_info(@vote)
+- user = @vote.voter
+- voteable = @vote.voteable
+
+- single_column(:class => 'topfold') do
+  .voteable
+    .secondary
+      = render_user_with_avatar(user, :medium)
+    .details
+      .voteable_details
+        %h2.voteable_title
+          = link_to "#{user_name(user)} recommends #{voteable_name(voteable)}", user_vote_path(user, @vote)
+
+        %p
+          = render_workspace_contact_numbers(voteable)
+          = nav_separator
+          = render_voteable_location(voteable, :brief)
+        %p= render_voteable_votes_note(voteable)
+
+        .comment
+          .comment_details
+            - if @vote.comment
+              = render_votes_text(@vote)
+            %p.note= render_vote_note(@vote)
+
+
+- main_column do
+  - if @votes_up.any?
+    = render :partial => 'votes/listing', :locals => {:votes => @votes_up, :user => user, :voteable => voteable}
+
+- single_column do
+  = render :partial => 'search/cities'

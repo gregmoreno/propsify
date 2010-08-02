@@ -1,0 +1,10 @@
+.comment
+  = render_user_with_avatar(vote.voter, avatar)
+  .comment_details
+    - if vote.comment
+      = render_votes_text(vote)
+    %p.note= link_to(render_vote_note(vote), user_vote_path(vote.voter, vote))
+
+    .actions
+      - if permitted_to?(:delete, vote)
+        = render_delete_link(vote)

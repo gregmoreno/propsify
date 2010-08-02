@@ -1,0 +1,18 @@
+%h3.section_title 
+  %span.number= pluralize(votes.total_entries, 'more recommendation', 'more recommendations') 
+  from
+  = render_user(user)
+
+.listing
+  - votes.each do |vote|
+    - voteable = vote.voteable
+    .item.voteable
+      = render :partial => 'ratings/rating', :locals => {:voteable => voteable}
+      .details
+        .voteable_details
+          %h3.voteable_title
+            = render_voteable_name(voteable) 
+          %p= render_voteable_location(voteable, :brief)
+          %p.note= link_to(render_vote_note(vote), user_vote_path(user, vote))
+
+= paginate(votes)

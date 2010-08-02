@@ -1,0 +1,21 @@
+- main_column do
+  %table
+    %tr
+      %td
+        %h1= link_to('Vancouver Fitness Trainer')
+        %h1= link_to('Vancouver Fitness Gym',     search_path(:q => 'fitness+gym', :subdomain => 'vancouver'))
+        %h1= link_to('Vancouver Yoga Fitness', search_path(:q => 'yoga+fitness', :subdomain => 'vancouver'))
+
+
+        %h3
+          More from 
+          %span= link_to('Vancouver', root_path(:subdomain => 'vancouver')) 
+        %h2
+          %span= link_to 'Martial Arts'
+          %span= link_to 'Boxing'
+        %h2
+          %span= link_to 'Massage Therapy'
+        %h2
+          %span= link_to 'Welness Program'
+        %h2
+          %span= link_to 'Chiropractor'

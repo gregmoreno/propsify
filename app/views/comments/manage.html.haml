@@ -1,0 +1,11 @@
+- main_column do
+  %h3
+    Reviews for 
+    = link_to user_name(@user), @user
+  #comments
+    %table
+      - @comments.each do |comment|
+        %tr
+          %td= render_comment_user(comment)
+          %td= h comment.text
+          %td= render_create_date(comment) 

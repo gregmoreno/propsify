@@ -1,0 +1,12 @@
+.item.voteable
+  - voteable = item.voteable
+  = render :partial => 'ratings/rating', :locals => {:voteable => voteable}
+  .details
+    .voteable_details
+      %h3.voteable_title
+        = link_to voteable_name(voteable), user_vote_path(item.voter, item)
+      %p= render_voteable_location(voteable, :brief)
+      %p= render_voteable_votes_note(voteable)
+      %p= render_user_vote_note(item.voter, item)
+   
+

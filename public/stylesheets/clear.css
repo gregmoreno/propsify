@@ -1,0 +1,19 @@
+/* float clearing for IE6 */
+* html .clear{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clear{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clear:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}

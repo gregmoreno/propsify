@@ -1,0 +1,629 @@
+@import url('reset.css'); /* CSS RESETS */
+body#propsify {
+	color:#555555;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	text-align:left;
+	text-transform: none;
+	letter-spacing: normal;
+	line-height: 28px;
+	background-color:#fff;
+	margin:0px;
+	padding:0px;
+}
+#propsify a {
+	text-decoration:underline;
+	color:#ec497c;
+}
+#propsify a:active {
+	color:#000;
+}
+#propsify em {
+	font-style:normal;
+	color:#9ccd39;
+}
+#propsify h3 {
+	color:#3e3e3e;
+	font-size: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#propsify p {
+	line-height:22px;
+}
+#propsify p.tall {
+	font-size:17px;
+	line-height:28px;
+}
+#propsify p.small {
+	font-size:12px;
+}
+#propsify img {
+	display:block;
+}
+
+#propsify img.fancy {
+  padding: 3px;
+  background: #c7e76c;
+}
+
+#propsify strong {
+  font-weight: bold;
+}
+
+
+/* ------------------------------------------------ */
+/*    MAIN CONTAINERS                               */
+/* ------------------------------------------------ */
+
+#propsify #navigation-container {
+	width:100%;
+	height:41px;
+	background-color:#c7e76c;
+	overflow:hidden;
+}
+#propsify #navigation {
+	position:relative;
+	width:925px;
+	height:23px;
+	margin:0 auto;
+}
+#propsify #container {
+	width:985px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#propsify #header {
+	position:relative;
+	width:985px;
+	background: #fff url(../images/site-bg-top.gif) no-repeat bottom center;
+	overflow:hidden;
+	padding-bottom:7px;
+}
+#propsify #content {
+	position:relative;
+	width:985px;
+	background: #fff url(../images/site-bg-mid.gif) repeat-y;
+	overflow:hidden;
+}
+#propsify #footer {
+	position:relative;
+	width:985px;
+	line-height:22px;
+	min-height:100px;
+	color:#8b8689;
+	background: #fff url(../images/site-bg-bot.png) no-repeat bottom center;
+	overflow:hidden;
+}
+/* ------------------------------------------------ */
+/*    NAVIGATION STYLES                             */
+/* ------------------------------------------------ */
+
+#propsify #navigation ul.left {
+	float:left;
+}
+#propsify #navigation ul.left li {
+	margin:8px 5px 0 0;
+}
+#propsify #navigation ul.right {
+	float:right;
+}
+#propsify #navigation ul.right li {
+	margin:8px 0 0 5px;
+}
+#propsify #navigation > ul li {
+	float:left;
+	height:23px;
+}
+/* widths: 111, 131, 81 .. 122, 85, 85, 85, 74 */
+
+#propsify #navigation ul li.tour {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat 0px 0px;
+}
+#propsify #navigation ul li.plans {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -111px 0px;
+}
+#propsify #navigation ul li.signup {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -242px 0px;
+}
+#propsify #navigation ul li.manifesto {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -323px 0px;
+}
+#propsify #navigation ul li.team {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -445px 0px;
+}
+#propsify #navigation ul li.blog {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -530px 0px;
+}
+#propsify #navigation ul li.help {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -615px 0px;
+}
+#propsify #navigation ul li a {
+	text-indent:-50000px;
+}
+#propsify #navigation ul li.tour a {
+	display:block;
+	background:none;
+	height:23px;
+	width:111px;
+}
+#propsify #navigation ul li.plans a {
+	display:block;
+	background:none;
+	height:23px;
+	width:131px;
+}
+#propsify #navigation ul li.signup a {
+	display:block;
+	background:none;
+	height:23px;
+	width:81px;
+}
+#propsify #navigation ul li.manifesto a {
+	display:block;
+	background:none;
+	height:23px;
+	width:122px;
+}
+#propsify #navigation ul li.team a {
+	display:block;
+	background:none;
+	height:23px;
+	width:85px;
+}
+#propsify #navigation ul li.blog a {
+	display:block;
+	background:none;
+	height:23px;
+	width:85px;
+}
+#propsify #navigation ul li.help a {
+	display:block;
+	background:none;
+	height:23px;
+	width:85px;
+}
+#propsify #navigation ul li.tour a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat 0px -23px;
+}
+#propsify #navigation ul li.plans a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -111px -23px;
+}
+#propsify #navigation ul li.signup a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -242px -23px;
+}
+#propsify #navigation ul li.manifesto a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -323px -23px;
+}
+#propsify #navigation ul li.team a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -445px -23px;
+}
+#propsify #navigation ul li.blog a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -530px -23px;
+}
+#propsify #navigation ul li.help a:hover {
+	background: transparent url(../images/navigation-sprites.gif) no-repeat -615px -23px;
+}
+/* ------------------------------------------------ */
+/*    HEADER STYLES                                 */
+/* ------------------------------------------------ */
+
+#propsify .title {
+	font-size: 60px;
+	height: 110px;
+	padding-top: 40px;
+	text-align: center;
+}
+#propsify .title span {
+	font-size: 25px;
+	margin-top: 20px;
+	display: block;
+}
+#propsify .tour-teaser, .tour-video {
+	position:relative;
+	width:927px;
+	margin:0 auto;
+}
+#propsify .tour-teaser {
+	height:248px;
+}
+#propsify .tour-video {
+	height:315px;
+}
+#propsify .tour-teaser img, .tour-video img {
+	margin:0 auto;
+}
+#propsify #container.tour .tour-video {
+	margin-top: 15px;
+}
+/* ------------------------------------------------ */
+/*    CONTENT STYLES                                */
+/* ------------------------------------------------ */
+
+#propsify .columns {
+	position:relative;
+	width:884px;
+	margin:0 auto;
+	padding:20px 0 30px 0;
+	overflow:hidden;
+}
+#propsify #container.tour .columns {
+	padding: 20px 0 0px 0;
+}
+#propsify .columns.one h2 {
+	margin:10px 12px 0 12px;
+}
+#propsify .columns.one#hippo {
+	margin-top: 30px;
+}
+#propsify .columns.one p {
+	position:relative;
+	float:left;
+	padding:0 22px 0 22px;
+	overflow:hidden;
+}
+#propsify .columns.two {
+	padding:20px 0;
+}
+#propsify .columns.two .column {
+	position:relative;
+	float:left;
+	width:402px;
+	padding:0 20px 0 20px;
+	overflow:hidden;
+}
+#propsify .columns.three {
+	position:relative;
+	width:884px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#propsify .columns.three .column.dual {
+	position:relative;
+	float:left;
+	width:632px;
+	margin:0;
+	overflow:hidden;
+}
+#propsify .columns.three .column.sidebar {
+	position:relative;
+	float:left;
+	width:252px;
+	margin:0;
+	overflow:hidden;
+}
+#propsify .columns.three.teaser {
+	width:924px;
+	padding:0;
+}
+#propsify #container.tour .columns.three.teaser {
+	margin-bottom: 15px;
+}
+#propsify .columns.three.teaser .column {
+	float:left;
+	width:308px;
+	padding:0;
+}
+#propsify .columns.three.teaser .column ul {
+	margin:0px 0px 0px 12px;
+	padding: 10px 0 10px 50px;
+	width: 235px;
+	background: #e4e4e4;
+}
+#propsify .columns.two .column {
+	position:relative;
+	float:left;
+	width:502px;
+	padding:0 20px 0 20px;
+	overflow:hidden;
+}
+#propsify .columns.four .column {
+	position:relative;
+	float:left;
+	width:293px;
+	margin:0 10px;
+	overflow:hidden;
+}
+#propsify .columns.four {
+	position:relative;
+	width:904px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#propsify .columns.four .column {
+	position:relative;
+	float:left;
+	width:206px;
+	margin:0 10px;
+	overflow:hidden;
+}
+#propsify .columns h2 {
+	position:relative;
+	margin:5px 0 10px 0;
+	text-align:center;
+}
+
+#propsify .column.big h3 {
+  font-size: 24px;
+}
+
+#propsify .column.big p {
+  margin-bottom: 15px;
+}
+
+#propsify .feature {
+	display:block;
+	overflow:hidden;
+	margin:0 0 20px 0;
+}
+#propsify .feature > img {
+	display:block;
+	float:left;
+	margin:5px 0 0 5px;
+	border: 1px solid #e4e4e4;
+}
+#propsify .feature > h3 {
+	display:block;
+	float:right;
+	width:520px;
+	margin:0 25px 0 0;
+}
+#propsify .feature > p {
+	display:block;
+	float:right;
+	width:520px;
+	margin:0 25px 5px 0;
+}
+/* ------------------------------------------------ */
+/*    SHOUTOUT STYLES                               */
+/* ------------------------------------------------ */
+
+#propsify .try-freckle {
+	width:875px;
+	height:73px;
+	background:url(../images/tour-box.gif) 0 0 no-repeat;
+	z-index:100;
+	margin:0 auto;
+	position:relative;
+	cursor:pointer;
+}
+#propsify .try-freckle:hover {
+	background:url(../images/tour-box.gif) 0 -73px no-repeat;
+}
+#propsify .try-freckle .perfect-for {
+	display:block;
+	width:860px;
+	z-index:200;
+	font-size:14px;
+	line-height:1.5;
+	float:left;
+	margin-top: 20px;
+}
+#propsify .try-freckle .perfect-for .emphasized {
+	text-align: center;
+	font-size:20px;
+}
+#propsify .try-freckle .perfect-for img, #propsify a.tour-link img {
+	position:relative;
+	display:inline;
+	vertical-align:text-bottom; /* baseline/sub/super/top/text-top/middle/bottom/text-bottom/length/%; */
+}
+#propsify .try-freckle .perfect-for img {
+	top:-2px;
+}
+#propsify a.tour-link img {
+	top:-4px;
+}
+#propsify a.tour-link {
+	background:#afedf8;
+	padding:5px 15px;
+	font-size:18px;
+	color:#e3437f;
+	font-weight:bold;
+	-webkit-border-radius:17px;
+	-moz-border-radius:17px;
+	position:absolute;
+	right:15px;
+	top:17px;
+}
+#propsify a.tour-link:hover, #propsify .try-freckle:hover a.tour-link {
+	background:#94e8f7;
+}
+#propsify .main-actions {
+	position:relative;
+	height:80px;
+	top:-19px;
+	margin-bottom:-25px;
+	text-align: center;
+}
+#propsify .main-actions h2 {
+	font-size: 28px;
+}
+#propsify a.try-link-start {
+	background: transparent url(../images/shoutout-coming.png) 0 0 no-repeat;
+	color: #FFF;
+	display:block;
+	height:54px;
+	overflow:hidden;
+	padding-top: 26px;
+	position:absolute;
+	text-decoration: none;
+	width:985px;
+}
+#propsify a.try-link-start span {
+	font-size: 16px;
+	position:relative;
+	top: -3px;
+	margin-left: 20px;
+	padding: 3px 5px;
+	border: 2px solid #FFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#propsify a.try-link-start span:hover {
+	color: #cbf3fb;
+	border: 2px solid #cbf3fb;
+}
+#propsify .infoline {
+	width:927px;
+	height:41px;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+}
+#propsify .infoline h2 {
+	font-size: 20px;
+	margin-top: 5px;
+}
+#propsify .infoline img {
+	display:inline;
+}
+#propsify .infoline span {
+	position:relative;
+	top:-16px;
+}
+#propsify .infoline.blue {
+	color:#1b809a;
+	background: #fff url(../images/infolines-bg.gif) no-repeat 0px 0px;
+}
+#propsify .infoline.blue a {
+	color:#1b809a;
+	text-decoration:underline;
+}
+#propsify .infoline.green {
+	color:#4f830a;
+	background: #fff url(../images/infolines-bg.gif) no-repeat 0px -41px;
+}
+#propsify .infoline.green a {
+	color:#4f830a;
+	text-decoration:underline;
+}
+#propsify .infoline.blue a:active, #propsify .infoline.green a:active {
+	color:#555;
+}
+#propsify .quote {
+	display:block;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+#propsify .quote .quote-box {
+	display:block;
+	overflow:hidden;
+	background: #fff url(../images/quotebox.png) no-repeat center top;
+}
+#propsify .quote .quote-box span {
+	display:block;
+	overflow:hidden;
+	height:20px;
+	background: #fff url(../images/quotebox.png) no-repeat center bottom;
+}
+#propsify .quote .quote-box > p {
+	display:block;
+	margin:15px 20px 5px 20px;
+	font-size:15px;
+	line-height:24px;
+}
+#propsify .quote a {
+	color:#505050;
+}
+#propsify .quote > img {
+	display:block;
+	float:left;
+	margin:5px 0 0 25px;
+}
+#propsify .quote > p {
+	display:block;
+	float:right;
+	width:173px;
+	margin:8px 0 5px 0;
+	font-size:13px;
+	line-height:20px;
+}
+/* ------------------------------------------------ */
+/*    FOOTER STYLES                                 */
+/* ------------------------------------------------ */
+
+#propsify #footer a {
+	color:#656565;
+}
+#propsify #footer a:active {
+	color:#ec497c;
+}
+#propsify #footer a {
+	color:#656565;
+}
+#propsify #footer > p {
+	margin:0 0 0 50px;
+}
+#propsify #footer ul {
+	display:block;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#propsify #footer ul li {
+	display:block;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+/* ------------------------------------------------ */
+/*    HELPER STYLES                                 */
+/* ------------------------------------------------ */
+
+#propsify ul.blue-dot li {
+	margin:0 0 0 0px;
+	line-height:23px;
+	list-style-image:url(../images/blue-dot.png);
+	list-style-position: outside;
+}
+#propsify ul.grey-dot li {
+	margin:0 0 0 0px;
+	line-height:23px;
+	list-style-image:url(../images/grey-dot.png);
+	list-style-position: outside;
+}
+/* ------------------------------------------------ */
+/*    SUBSCRIBE STYLES                                 */
+/* ------------------------------------------------ */
+
+#subscribe {
+	background-color: #f3d98c;
+	color:#414110;
+	padding: 15px;
+	position: relative;
+}
+#subscribe .leftTop, #subscribe .leftBot, #subscribe .rightTop, #subscribe .rightBot {
+	position: absolute;
+	width: 13px;
+	height: 13px;
+}
+#subscribe .leftTop {
+	background: url(../images/beige_left_top.gif) 0 0 no-repeat;
+	left: 0;
+	top: 0;
+}
+#subscribe .leftBot {
+	background: url(../images/beige_left_bottom.gif) 0 0 no-repeat;
+	left: 0;
+	bottom: 0;
+}
+#subscribe .rightTop {
+	background: url(../images/beige_right_top.gif) 0 0 no-repeat;
+	right: 0;
+	top: 0;
+}
+#subscribe .rightBot {
+	background: url(../images/beige_right_bottom.gif) 0 0 no-repeat;
+	right: 0;
+	bottom: 0;
+}
+
+#subscribe input[type='text'] {
+ 	margin: 0;
+	background: #E5ECF9;
+  border: 1px solid #888888;
+  width: 300px;
+  font-size: 1.125em;
+}

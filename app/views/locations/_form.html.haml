@@ -1,0 +1,20 @@
+%p#country-subdivision-field
+  = form.label :country_subdivision, 'Province'
+  %br
+  = form.collection_select :country_subdivision_id, @country_subdivisions, :id, :name, { :prompt => friendly_select_prompt(@country_subdivisions) }, :id => 'country-subdivision-select'
+  = observe_field 'country-subdivision-select', :url => '/locations', :method => :get, :with => "'country_subdivision_id='+value"
+
+%p#city-field
+  = form.label :city, 'City or Town'
+  %br
+  = form.collection_select :city_id, @cities, :id, :name, { :prompt => friendly_select_prompt(@cities) }, :id => 'city-select' 
+
+%p
+  = form.label :street_address
+  %br
+  = form.text_field :street_address, :class => :text
+
+%p
+  = form.label :postal_code
+  %br
+  = form.text_field :postal_code, :class => :text

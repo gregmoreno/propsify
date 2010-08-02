@@ -1,0 +1,35 @@
+- main_column do
+  %h3= "Login to your #{site_name} account"
+  %p.note
+    - signup = link_to('create one here', signup_path)
+    = "If you do not have an account, #{signup}."
+
+  - form_for(@user_session, :url => user_session_path) do |f|
+    %table
+      %tr
+        %td.label
+          = f.label 'login', 'Email'
+        %td.field
+          = f.text_field :login, :class => 'title'
+      %tr
+        %td.label
+          = f.label :password
+        %td.field
+          = f.password_field :password, :class => 'title'
+      %tr
+        %td
+          &nbsp;
+        %td
+          = f.submit 'Log in', :class => 'submit-button'
+
+      %tr
+        %td
+          &nbsp;
+        %td
+          = link_to 'Forgot your password?', new_password_reset_path
+
+  = javascript_include_tag 'pages/signup'
+
+
+
+

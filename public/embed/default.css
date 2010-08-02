@@ -1,0 +1,184 @@
+/* Emulate position:fixed to make it work in IE quirks mode */
+#props-action {
+  position: absolute;
+  top:      expression((-5 - document.getElementById('props-action').offsetHeight + (document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight) + (ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px');
+  left:     expression((-5 - document.getElementById('props-action').offsetWidth + (document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth) + (ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft)) + 'px');
+  right:    auto;
+  bottom:   auto;
+}
+
+#props-wrapper > #props-action {
+  text-decoration: none;
+  position:        fixed;
+  bottom:          15px;
+  right:           15px;
+  height:          80px;
+  width:           120px;
+  z-index:         1001;
+}
+
+
+#props-action img {
+  border: none;
+}
+
+/* Should hide the window by default */
+#props-modal {
+	display:     none;
+  padding:     0;
+  margin:      0;
+	font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-size:   14px;
+  color:       #555;
+
+}
+
+#props-modal h1 {
+	font-size: 2em
+}
+
+#props-modal h2 {
+	font-size: 1.75em
+}
+
+#props-modal h3 {
+	font-size: 1.5em
+}
+
+#props-modal h4 {
+	font-size: 1.25em
+}
+
+#props-modal h5 {
+	font-size: 1.05em
+}
+
+#props-modal h6 {
+	font-size: 0.95em
+}
+
+#props-modal h1, 
+#props-modal h2, 
+#props-modal h3, 
+#props-modal h4,
+#props-modal h5 {
+	color:  #fff;
+  margin: 0 0 5px 0;
+}
+
+#props-modal p {
+  font-size:   100%;
+  line-height: 1.25em;
+  margin:      0 0 7px 0;
+  font-size:   1.125em;
+}
+
+#props-modal a,
+#props-modal a:visited {
+  /*color:           #0055FF;*/
+  color: #fff;
+  text-decoration: none;
+}
+
+#props-modal p a:hover {
+  text-decoration: none;
+}
+
+#props-modal .listing {
+  padding:  5px 0;
+  margin:   0 0 10px 0;
+  height:   250px;
+  overflow: auto;
+}
+
+#props-modal .comment {
+  margin:        0 0 10px 0px;
+  padding:       5px 0;
+  border-bottom: 1px dashed #CCC;
+}
+
+#props-modal .quote {
+  font-family: Georgia, Times, Serif;
+	text-align:  left;
+  font-style:  italic;
+	display:     inline-block;
+	position:    relative;
+	margin:      0 0 5px 0;
+  padding:     0 5px 0 0;
+  font-size:   1.125em;  
+}
+
+#props-modal .info {
+	text-align: left;
+	position:   relative;
+	clear:      both;
+  font-size:  .90em;
+}
+
+#props-modal .info a {
+	color:      #d16727;
+}
+
+#props-modal p.notice {
+  text-align: right;
+  font-size:  .90em;
+}
+
+#props-modal p.notice a {
+  color:  #777;
+}
+
+#props-modal p.notice img {
+  border: none;
+}
+
+#props-modal .left {
+  float: left;
+}
+
+#props-modal .right {
+  float: right;
+}
+
+
+/* IDs are specific to the simplemodal plugin */
+
+#simplemodal-overlay {
+	background-color: #000;
+	cursor:           auto;
+}
+
+#simplemodal-container {
+	height:      auto;
+	background:  #fff;
+	border:      4px solid #444;
+	color:       #000;
+	padding:     20px 15px;
+	width:       600px;
+  font-family: Arial, sans-serif;
+	margin-left: -15px; 
+	background: -moz-linear-gradient( center bottom, rgb(0,165,225) 23%, rgb(68,193,235) 76%);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.23, rgb(0,165,225)), color-stop(0.76, rgb(68,193,235)));
+  
+}
+* html #simplemodal-container {
+	margin-left: 0;
+}
+
+.simplemodal-wrap {
+  margin:  0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#simplemodal-container a.modalCloseImg {
+	background: transparent url(http://propsify.dev:/images/embed/x.png) no-repeat scroll 0 0;
+	cursor:     pointer;
+	display:    inline;
+	height:     29px;
+	position:   absolute;
+	right:      -16px;
+	top:        -15px;
+	width:      25px;
+	z-index:    3200;
+}

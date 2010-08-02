@@ -1,0 +1,7 @@
+/* EI CSS */
+#comments blockquote {
+  margin: 0;
+}
+#comments blockquote p {
+  display: block;
+}

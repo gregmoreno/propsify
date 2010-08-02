@@ -1,0 +1,40 @@
+- @page_title, @page_desc = workspace_page_info(@workspace)
+
+- single_column(:class => 'topfold') do
+  = render 'search/form'
+
+  .voteable
+    .secondary
+      = render :partial => 'ratings/rating', :locals => {:voteable => @workspace}
+    .details
+      .voteable_details
+        %h1.voteable_title
+          %span.name= render_workspace_name(@workspace) 
+
+        %p
+          = render_workspace_contact_numbers(@workspace)
+          = nav_separator
+          = render_workspace_location(@workspace, :brief)
+        %p= render_voteable_votes_note(@workspace)
+
+
+      - if permitted_to?(:update, @workspace) 
+        .actions
+          %p= link_to 'Edit', edit_workspace_path(@workspace)
+
+- main_column do
+  =# render_workspace_description(@workspace)
+  
+  %a{:name => 'votes'}
+  .listing
+    - @votes.each do |vote|
+      .item
+        = render :partial => 'votes/vote', :object => vote, :locals => {:avatar => :small}
+
+  = paginate(@votes)
+
+/
+  - single_column do
+    = render :partial => 'search/cities'
+
+

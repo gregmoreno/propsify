@@ -1,0 +1,48 @@
+
+
+
+- if current_user
+  - workspaces = current_user.workspaces
+  - members    = workspaces.empty? ?  [] : workspaces.members
+  #topmenu
+    %ul
+      %li 
+        - menu = members.many? ? 'Profiles' : 'Profile'
+        %span.head_menu
+          = link_to menu, '#' 
+          - if members.many?
+            = menu_dropdown_icon 
+            .sub_menu
+              - members.each do |member|
+                = link_to user_name(member), member
+
+      %li
+        %span.head_menu
+          - unless members.many?
+            = link_to 'Reviews', manage_user_comments_path(User.current)
+          - else
+            = link_to 'Reviews', '#'
+          = menu_dropdown_icon 
+        .sub_menu
+          - if members.many?
+            - members.each do |member|
+              = link_to user_name(member), manage_user_comments_path(member)
+            = link_to 'Ask for a review', invitations_path, :class => 'item_line'
+          - else
+            = link_to 'Ask for a review', invitations_path
+      %li
+        - if workspaces.empty?
+          %span.head_menu= link_to 'New office'
+        - else 
+          %span.head_menu
+            = link_to 'Offices', user_workspaces_path(User.current)
+            = menu_dropdown_icon
+          .sub_menu
+            - workspaces.each do |workspace|
+              = link_to workspace.name, edit_user_workspace_path(User.current, workspace)
+            = link_to 'New office', new_user_workspace_path(User.current), :class => 'item_line'
+
+  = javascript_include_tag 'lib/jquery.flickrmenu', 'pages/menu'
+
+
+

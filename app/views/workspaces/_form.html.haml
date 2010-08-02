@@ -1,0 +1,31 @@
+- form_for setup_workspace(@workspace) do |f|
+  %table
+    %tr
+      %td.label
+        = f.label :name
+      %td.field
+        .field
+          = f.text_field :name, :class => 'text'
+
+    %tr
+      %td.label
+        = f.label 'Location'
+      %td.field
+        - f.fields_for :location do |ff|
+          = render :partial => 'locations/form', :object => ff
+
+    %tr
+      %td.label
+        = f.label :contact_numbers
+      %td.field
+        = f.text_area :contact_numbers, :class => 'text brief'
+
+    %tr
+      %td
+        &nbsp;
+      %td
+        = f.submit (@workspace.new_record? ? 'Add business' : 'Save changes', :class => 'submit-button')
+        %span.actions
+          = link_to('Cancel', workspaces_path)
+
+= javascript_include_tag 'pages/workspaces_form'

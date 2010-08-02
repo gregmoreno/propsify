@@ -1,0 +1,25 @@
+- main_column do
+  %h3 
+    Share your recommendation for
+    = render_voteable_name(@voteable)
+
+  %p.note
+    - user = @invitation.created_for
+    = "This request is intended for #{render_user(user)}."
+    = "If you are not #{render_user(user)}, we're sorry for disturbing you."
+  
+  - form_for(Vote.new, :url => votes_path(@voteable)) do |f|
+    = hidden_field_tag :token, @invitation.token
+    %table
+      - f.fields_for :comment, Comment.new do |ff|
+        %tr
+          %td.label
+            %label Testimonial (optional)
+          %td.field
+            = ff.text_area :text, :class => 'text', :rows => 10
+      %tr
+        %td
+          &nbsp;
+        %td
+          = submit_tag  'Publish my recommendation', :class => "submit-button"
+

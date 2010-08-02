@@ -1,0 +1,36 @@
+- @page_title, @page_desc = user_page_info(@user)
+
+- single_column(:class => 'topfold') do
+  .voteable
+    .secondary
+      = render_user_with_avatar(@user, :medium)
+    .details
+      .voteable_details
+        %h2.voteable_title
+          %span.number= number_with_delimiter(@votes_up.total_entries)
+          recommendations from
+          = render_user(@user)
+
+
+- main_column do
+  .listing
+    - @votes_up.each do |vote|
+      - voteable = vote.voteable
+      .item.voteable
+        = render :partial => 'ratings/rating', :locals => { :voteable => voteable }
+        .details
+          .voteable_details
+            %h3.voteable_title
+              = render_voteable_name(voteable) 
+            %p= render_voteable_location(voteable, :brief)
+            %p.note= link_to(render_vote_note(vote), user_vote_path(@user, vote))
+
+
+  = paginate(@votes_up)
+
+
+- single_column do
+  = render :partial => 'search/cities'
+
+  
+      

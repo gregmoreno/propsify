@@ -1,0 +1,41 @@
+- single_column do
+  %h3 Important things about you... 
+  %p.note
+    These information would be seen by many people. Make the best out of it.
+    = link_to 'View an example.'
+  
+  - form_for [@user, @profile]  do |f|
+    %table
+      %tr
+        %td.label
+          = f.label :salutation
+        %td.field
+          = f.text_field :salutation, :class => 'text'
+      %tr
+        %td.label
+          = f.label :name, 'Full name' 
+        %td.field
+          = f.text_field :name, :class => 'text'
+      %tr
+        %td.label
+          = f.label :title, 'Title'
+        %td.field
+          = f.text_field :title, :class => 'text'
+      %tr
+        %td.label
+          = f.label :practice, 'Practice'
+        %td.field
+          - f.fields_for :doctor_profile do |dp|
+            = render :partial => 'doctor_profile', :object => dp
+
+      %tr
+        %td.label
+          = f.label :description, 'Other information'
+        %td.field
+          = f.text_area :description, :class => 'text brief'
+
+      %tr
+        %td &nbsp;
+        %td
+          = submit_tag 'Save changes', :class => "submit-button"
+  = javascript_include_tag 'pages/profile'

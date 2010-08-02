@@ -1,0 +1,66 @@
+--- 
+british_columbia_43: 
+  name: British Columbia
+  code: BC
+  country_id: 43
+  id: 43
+saskatchewan_40: 
+  name: Saskatchewan
+  code: SK
+  country_id: 43
+  id: 40
+new_brunswick_42: 
+  name: New Brunswick
+  code: NB
+  country_id: 43
+  id: 42
+newfoundland_and_labrador_41: 
+  name: Newfoundland and Labrador
+  code: NF
+  country_id: 43
+  id: 41
+nova_scotia_39: 
+  name: Nova Scotia
+  code: NS
+  country_id: 43
+  id: 39
+ontario_37: 
+  name: Ontario
+  code: "ON"
+  country_id: 43
+  id: 37
+quebec_35: 
+  name: Quebec
+  code: QC
+  country_id: 43
+  id: 35
+prince_edward_island_45: 
+  name: Prince Edward Island
+  code: PE
+  country_id: 43
+  id: 45
+northwest_territories_46: 
+  name: Northwest Territories
+  code: NT
+  country_id: 43
+  id: 46
+manitoba_38: 
+  name: Manitoba
+  code: MB
+  country_id: 43
+  id: 38
+nunavut_4996: 
+  name: Nunavut
+  code: NU
+  country_id: 43
+  id: 4996
+yukon_territory_815: 
+  name: Yukon Territory
+  code: YT
+  country_id: 43
+  id: 815
+alberta_36: 
+  name: Alberta
+  code: AB
+  country_id: 43
+  id: 36

@@ -1,0 +1,28 @@
+= paginate(@workspaces)
+= render 'sorting'
+
+.listing
+  %table{:cellpadding => 0, :cellspacing => 0, :border => 0}
+    %tr.header
+      %td{:width => '60%'}= "Business Name (#{link_to('Add new', new_workspace_path)})"
+      %td Recommendations
+    - @workspaces.each do |workspace|
+      %tr
+        %td
+          %h3= render_workspace_name(workspace)
+          %p.location
+            = workspace_location(workspace)
+
+          .actions
+            %span.item.first= render_workspace_meta(workspace)
+            %span.item= link_to('Edit', edit_workspace_path(workspace)) if permitted_to?(:update, workspace)
+            %span.item= render_delete_link(workspace) 
+            %span.last= link_to('Get widget', widget_workspace_path(workspace))
+            
+        %td
+          = render :partial => 'ratings/info', :locals => {:voteable => workspace}
+          %p.actions
+            %span= link_to('Get recommendations', invitations_path(workspace))
+
+= paginate(@workspaces)
+

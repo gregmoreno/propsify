@@ -1,0 +1,30 @@
+%table.index
+  %tr
+    %td
+      %p= link_to "Fitness Trainers", search_path(:q => 'fitness+trainer'), :title => "#{@location} fitness trainers"
+      %p= link_to "Fitness Gyms, Clubs, Centres", search_path(:q => 'fitness'), :title => "#{@location} fitness gym, club, centre"
+      %p= link_to "Fitness Equipments", search_path(:q => 'fitness+equipment'), :title => "#{@location} fitness equipments"
+      %p
+        %span= link_to"#{@location} Fitness", search_path(:q => 'fitness'), :title => "#{@location} fitness" 
+    %td
+      %p= link_to "Yoga Teachers", search_path(:q => 'yoga+teacher'), :title => "#{@location} yoga teachers"
+      %p= link_to "Yoga Studios", search_path(:q => 'yoga+studio'), :title => "#{@location} yoga studio, classes, centre"
+      %p= link_to "Yoga Pilates", search_path(:q => 'yoga+pilates'), :title => "#{@location} yoga studios"
+      %p
+        %span= link_to"#{@location} Yoga Fitness", search_path(:q => 'yoga'), :title => "#{@location} yoga fitness"
+    %td
+      %p= link_to "Boxing", search_path(:q => 'boxing'), :title => "#{@location} boxing"
+      %p= link_to "Taekwondo", search_path(:q => 'taekwondo'), :title => "#{@location} boxing" 
+      %p
+        %span= link_to"#{@location} Martial Arts", search_path(:q => 'martial+arts'), :title => "#{@location} martial arts"
+  %tr
+    %td
+      %p= link_to 'Chiropractor', search_path(:q => 'chiropractor'), :title => "#{@location} chiropractor"
+      %p= link_to 'Naturopathic Clinics', search_path(:q => 'naturopathic'), :title => "#{@location} naturopathic clinic"
+      %p= link_to 'Acupuncture Clinics', search_path(:q => 'acupuncture'), :title => "#{@location} acupuncture clinic"
+    %td
+      %p= link_to 'Cosmetic Dentist', search_path(:q => 'cosmetic+dentist'), :title => "#{@location} cosmetic dentist"
+      %p= link_to 'Pediatric Dentist', search_path(:q => 'pediatric+dentist'), :title => "#{@location} pediatric dentist"
+      %p= link_to 'Orthodontist', search_path(:q => 'orthodontist'), :title => "#{@location} orthodontist"
+      %p
+        %span= link_to"#{@location} Dentist", search_path(:q => 'dentist'), :title => "#{@location} dentist"

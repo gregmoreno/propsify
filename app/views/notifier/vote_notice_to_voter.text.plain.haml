@@ -1,0 +1,17 @@
+:plain
+  Hello, #{@voter.first_name}.
+
+  Thank you so much for your recommendation.
+
+  If you like to read what other customers are saying about us,
+  please click the link below:
+  
+      #{@voteable_url}
+
+  #{render :partial => 'notifier/link_note'}
+
+  Best regards,
+
+  #{render :partial => 'notifier/voteable_info'}
+  
+  #{render :partial => 'notifier/tagline'} 

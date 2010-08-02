@@ -1,0 +1,25 @@
+!!! XML
+
+- xmlns  = 'http://www.sitemaps.org/schemas/sitemap/0.9'
+- xsi    = 'http://www.w3.org/2001/XMLSchema-instance'
+- schema = 'http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/09/sitemap.xsd'
+%urlset{ :xmlns => xmlns, 'xmlns:xsi' => xsi, 'xsi:schemaLocation' => schema }
+  - priority   = '0.5' 
+  - lastmod    = '2009-09-01'
+  - changefreq = 'weekly'
+  - domain     = 'propsify.ca'
+
+  %url 
+    %loc= "http://#{domain}/" 
+    %priority= '0.1'
+    %lastmod= lastmod 
+    %changefreq= changefreq
+
+  - @locations.each do |location|
+    %url 
+      %loc= "http://#{domain}/#{location.name.parameterize}"
+      %priority= '0.5'
+      %lastmod= lastmod 
+      %changefreq= changefreq
+    
+

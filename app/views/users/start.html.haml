@@ -1,0 +1,22 @@
+- content_for(:pitch) do
+  .pitch
+    .message
+      %h2
+        = "Hello #{@user.first_name}!"
+      %h3
+        Thank you for giving us the chance to help your business. 
+      %h4
+        We worked very hard to make this website useful to you. If while using 
+        it you discover something wrong
+        or you have an idea to make this website better, just email us at
+        %span.email= support_email
+
+      %p Have a nice day!
+
+      %p
+        Greg Moreno
+        %br
+        Co-founder
+     
+      = render :partial => 'workspaces/start'
+  

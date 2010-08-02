@@ -1,0 +1,10 @@
+- comment_tag(comment) do
+  .quote
+    = render_comment_text(comment)
+  .info
+    &mdash;
+    - unless defined?(show_user_name) and (show_user_name == false) 
+      %span.user= render_comment_user(comment) 
+    on
+    %span.date= render_create_date(comment)
+

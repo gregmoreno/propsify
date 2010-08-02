@@ -1,0 +1,26 @@
+dax:
+  id: 1
+  profile_id: 1
+  specialties: |-
+    Orthopedic Surgery
+    Sports Medicine
+  certifications: |-
+    Surgery of MIT
+  affiliations: |-
+    Good Samaritan Hospital
+    New York
+
+    Smashing Place
+    New Jersey
+  trainings: |-
+    NASA Medical Training, 1989
+  educations: |-
+    Harvard Medical School
+    Cum Laude
+    1997
+  languages: |-
+    English
+    French
+    Filipino
+    Mandarin
+    Martian

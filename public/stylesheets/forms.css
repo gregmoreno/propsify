@@ -1,0 +1,149 @@
+/**/
+
+div.info, 
+div.success, 
+div.warning, 
+div.error {
+  border:              1px solid;
+  margin:              0px 0px 10px 0px;
+  padding:             10px 10px 13px 40px;
+  background-repeat:   no-repeat;
+  background-position: 5px center;
+}
+
+div.info {
+  color:            #00529B;
+  background-color: #BDE5F8;
+  background-image: url('../images/icons/info.png');
+}
+
+div.success {
+  color:            #4F8A10;
+  background-color: #DFF2BF;
+  background-image:url('../images/icons/success.png');
+}
+
+div.warning {
+  color:            #9F6000;
+  background-color: #FEEFB3;
+  background-image: url('../images/icons/warning.png');
+}
+
+div.error {
+  color:            #D8000C;
+  background-color: #FFBABA;
+  background-image: url('../images/icons/error.png');
+}
+
+fieldset {
+	padding: 0;
+	margin: 0 0 10px 0;
+	border: none;
+}
+
+fieldset .field {
+	margin-bottom: 10px;
+}
+
+input.text, input.title, textarea, select {
+	margin: 0;
+	background: #E5ECF9;
+}
+
+textarea.brief {
+	height: 50px;
+}
+
+
+input.error, 
+.error input, 
+select.error, 
+.error select {
+  color:        #8a1f11;
+	border-color: 1px solid #8A1F11;
+	background:   #FBE3E4;
+}
+
+label.error {
+  color:      #8a1f11;
+  background: none;
+  border:     none;
+}
+
+textarea {
+  margin:     0 10px 5px 0;
+  padding:    2px 5px;
+  border:     1px solid #888888;
+}
+
+input.text,
+input.title,
+textarea.text {
+  font-size:  1em;
+  margin:     0 10px 5px 0;
+  padding:    2px 5px;
+  width:      300px;
+  border:     1px solid #888888;
+}
+
+input.title {
+  font-size:  1.125em;
+}
+
+span.error {
+  color:   #8a1f11;
+	display: block;
+}
+
+form {
+  margin:  20px 0;
+  padding: 0;
+}
+
+form h1, form h2, form h3, form h4, form h5 {
+	padding: 0;
+	margin:  0;
+}
+
+form table {
+  width:  100%;
+  margin: 0;
+}
+
+form table, 
+form td, 
+form th {
+	vertical-align: top;
+	padding:        10px 5px;
+}
+
+form table td.label {
+	text-align: right;
+	width:      15%;
+}
+
+form table td.field {
+	border-top: 1px solid #bbb;
+}
+
+form table td.label label {
+	font-weight: bold;
+}
+
+form table.horizontal  td {
+  padding: 0;
+  margin:  0;
+}
+
+form table.horizontal td.text {
+  width: 200px;
+}
+
+form table.horizontal input.text {
+  width: 200px;
+}
+
+form label {
+	color:       #222;
+	font-weight: normal;
+}

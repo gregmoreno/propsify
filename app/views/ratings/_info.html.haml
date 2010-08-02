@@ -1,0 +1,12 @@
+.rating-info
+  %table
+    %tr.positive
+      %td.value
+        %span.number= number_with_delimiter(voteable.votes_up) 
+      %td.label
+        recommendations
+    %tr.invitations
+      %td.value
+        %span.number= number_with_delimiter(voteable.invitations.size)
+      %td.label
+        requests

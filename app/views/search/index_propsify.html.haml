@@ -1,0 +1,61 @@
+- content_for(:pitch) do
+
+  .pitch.clear
+    .message.clear
+      - main_column do
+        %h1.title
+          Selling to strangers is a pain.
+          %br
+          Let your customers help you.
+        %h4
+          = site_name
+          makes it easy to collect and spread recommendations for your business.
+
+      - sidebar_column do
+        %a{:href => "/signup", :class => "sliding-button"}
+          %span Add your business 
+        %p
+          It takes less than 5 minutes to signup and it is FREE. 
+
+- single_column do
+  .pitch-list.clear
+    %li
+      %h2 Collect
+      %p
+        Collect recommendations from your happy customers. Just have their emails ready and
+        we will do the rest. It is dead simple and your customers will be sharing their
+        recommendations in 5 minutes (or less).
+
+    %li
+      %h2 Publish
+      %p
+        Highlight the recommendations in your website without lifting a finger. Use our
+        widget to publish the recommendations in your website automatically.
+
+    %li
+      %h2 Spread
+      %p
+        Propsify gives your customers ability to post their recommendations in Twitter and Facebook
+        (coming next). It helps spread the great things about your business.
+        It's like an advertisement but a real customer is saying it.
+
+  %p
+    = image_tag "site/screenie1.jpg", :class => "screenshot"
+
+  %h3
+    Why Propsify?
+  %p
+    Trust is the biggest stumbling block in your customer’s brain.
+    No matter how big or shiny your advertisements are,  customers
+    don't trust you. They need you. They think you're the best man
+    for the job. But they are afraid of making the wrong decision.
+   
+  %h4
+    Customers want recommendations
+  %p 
+    Recommendations reduce risks for your customers. If someone else 
+    says how great you are, how kind you are, or how wonderful you 
+    can be, it reduces the fear from your customers of making the 
+    wrong decision.  It's about your business but unlike advertising, 
+    someone else is saying it. It's more believable. It's more credible.
+ 

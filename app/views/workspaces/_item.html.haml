@@ -1,0 +1,11 @@
+.item.workspace
+  = render :partial => 'ratings/rating', :locals => {:voteable => item}
+  .details
+    .voteable_details
+      %h3.voteable_title
+        %span.name= render_workspace_name(item) 
+      %p
+        = render_workspace_contact_numbers(item)
+        = nav_separator
+        = render_workspace_location(item, :brief)
+      %p= render_voteable_votes_note(item)

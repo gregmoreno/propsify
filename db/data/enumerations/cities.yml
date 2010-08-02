@@ -1,0 +1,2791 @@
+--- 
+standard_15399: 
+  country_subdivision_id: 36
+  name: Standard
+  country_id: 43
+  id: 15399
+saint_stephen_5864: 
+  country_subdivision_id: 42
+  name: Saint Stephen
+  country_id: 43
+  id: 5864
+atlin_5813: 
+  country_subdivision_id: 43
+  name: Atlin
+  country_id: 43
+  id: 5813
+kenora_5896: 
+  country_subdivision_id: 37
+  name: Kenora
+  country_id: 43
+  id: 5896
+maniwaki_5901: 
+  country_subdivision_id: 37
+  name: Maniwaki
+  country_id: 43
+  id: 5901
+revelstoke_13511: 
+  country_subdivision_id: 43
+  name: Revelstoke
+  country_id: 43
+  id: 13511
+tahsis_15820: 
+  country_subdivision_id: 43
+  name: Tahsis
+  country_id: 43
+  id: 15820
+saint_paul_18133: 
+  country_subdivision_id: 36
+  name: Saint Paul
+  country_id: 43
+  id: 18133
+webequie_19044: 
+  country_subdivision_id: 37
+  name: Webequie
+  country_id: 43
+  id: 19044
+thamesville_17457: 
+  country_subdivision_id: 37
+  name: Thamesville
+  country_id: 43
+  id: 17457
+wabush_5869: 
+  country_subdivision_id: 41
+  name: Wabush
+  country_id: 43
+  id: 5869
+paradise_16820: 
+  country_subdivision_id: 41
+  name: Paradise
+  country_id: 43
+  id: 16820
+toronto_1206: 
+  country_subdivision_id: 37
+  name: Toronto
+  country_id: 43
+  id: 1206
+sackville_14660: 
+  country_subdivision_id: 42
+  name: Sackville
+  country_id: 43
+  id: 14660
+timmins_5919: 
+  country_subdivision_id: 37
+  name: Timmins
+  country_id: 43
+  id: 5919
+sept_iles_5939: 
+  country_subdivision_id: 35
+  name: Sept-Iles
+  country_id: 43
+  id: 5939
+orleans_15773: 
+  country_subdivision_id: 37
+  name: Orleans
+  country_id: 43
+  id: 15773
+durham_13935: 
+  country_subdivision_id: 37
+  name: Durham
+  country_id: 43
+  id: 13935
+tobermory_14500: 
+  country_subdivision_id: 37
+  name: Tobermory
+  country_id: 43
+  id: 14500
+calgary_5794: 
+  country_subdivision_id: 36
+  name: Calgary
+  country_id: 43
+  id: 5794
+portuguese_cove_13315: 
+  country_subdivision_id: 39
+  name: Portuguese Cove
+  country_id: 43
+  id: 13315
+valley_east_12357: 
+  country_subdivision_id: 37
+  name: Valley East
+  country_id: 43
+  id: 12357
+riverview_15363: 
+  country_subdivision_id: 42
+  name: Riverview
+  country_id: 43
+  id: 15363
+baie_du_febvre_17565: 
+  country_subdivision_id: 35
+  name: Baie Du Febvre
+  country_id: 43
+  id: 17565
+georgetown_15564: 
+  country_subdivision_id: 37
+  name: Georgetown
+  country_id: 43
+  id: 15564
+carmacks_5965: 
+  country_subdivision_id: 815
+  name: Carmacks
+  country_id: 43
+  id: 5965
+guelph_11891: 
+  country_subdivision_id: 37
+  name: Guelph
+  country_id: 43
+  id: 11891
+lumby_18043: 
+  country_subdivision_id: 43
+  name: Lumby
+  country_id: 43
+  id: 18043
+entrelacs_14957: 
+  country_subdivision_id: 35
+  name: Entrelacs
+  country_id: 43
+  id: 14957
+port_alberni_14835: 
+  country_subdivision_id: 43
+  name: Port Alberni
+  country_id: 43
+  id: 14835
+southey_18963: 
+  country_subdivision_id: 40
+  name: Southey
+  country_id: 43
+  id: 18963
+alert_14409: 
+  country_subdivision_id: 46
+  name: Alert
+  country_id: 43
+  id: 14409
+keswick_15865: 
+  country_subdivision_id: 37
+  name: Keswick
+  country_id: 43
+  id: 15865
+port_dover_5908: 
+  country_subdivision_id: 37
+  name: Port Dover
+  country_id: 43
+  id: 5908
+saint_jude_17571: 
+  country_subdivision_id: 35
+  name: Saint-Jude
+  country_id: 43
+  id: 17571
+stephenville_14787: 
+  country_subdivision_id: 41
+  name: Stephenville
+  country_id: 43
+  id: 14787
+saint_basile__18032: 
+  country_subdivision_id: 35
+  name: "Saint-Basile "
+  country_id: 43
+  id: 18032
+trois_rivires_14560: 
+  country_subdivision_id: 35
+  name: Trois-Rivires
+  country_id: 43
+  id: 14560
+bancroft_14773: 
+  country_subdivision_id: 37
+  name: Bancroft
+  country_id: 43
+  id: 14773
+grande_prairie_5799: 
+  country_subdivision_id: 36
+  name: Grande Prairie
+  country_id: 43
+  id: 5799
+ganges_13022: 
+  country_subdivision_id: 43
+  name: Ganges
+  country_id: 43
+  id: 13022
+stoney_creek_12518: 
+  country_subdivision_id: 37
+  name: Stoney Creek
+  country_id: 43
+  id: 12518
+oromocto_16488: 
+  country_subdivision_id: 42
+  name: Oromocto
+  country_id: 43
+  id: 16488
+saint_laurent_13563: 
+  country_subdivision_id: 35
+  name: Saint-Laurent
+  country_id: 43
+  id: 13563
+port_hardy_12114: 
+  country_subdivision_id: 43
+  name: Port Hardy
+  country_id: 43
+  id: 12114
+caronport_17612: 
+  country_subdivision_id: 40
+  name: Caronport
+  country_id: 43
+  id: 17612
+cambridge_12575: 
+  country_subdivision_id: 37
+  name: Cambridge
+  country_id: 43
+  id: 12575
+carbonear_12743: 
+  country_subdivision_id: 41
+  name: Carbonear
+  country_id: 43
+  id: 12743
+markham_3468: 
+  country_subdivision_id: 37
+  name: Markham
+  country_id: 43
+  id: 3468
+gibsons_18287: 
+  country_subdivision_id: 43
+  name: Gibsons
+  country_id: 43
+  id: 18287
+windsor_5924: 
+  country_subdivision_id: 37
+  name: Windsor
+  country_id: 43
+  id: 5924
+cap_rouge_16677: 
+  country_subdivision_id: 35
+  name: Cap-Rouge
+  country_id: 43
+  id: 16677
+iroquois_falls_15036: 
+  country_subdivision_id: 37
+  name: Iroquois Falls
+  country_id: 43
+  id: 15036
+nanticoke_16638: 
+  country_subdivision_id: 37
+  name: Nanticoke
+  country_id: 43
+  id: 16638
+vanderhoof_42340: 
+  country_subdivision_id: 43
+  name: Vanderhoof
+  country_id: 43
+  id: 42340
+jonquiere_14213: 
+  country_subdivision_id: 35
+  name: Jonquiere
+  country_id: 43
+  id: 14213
+brockville_3450: 
+  country_subdivision_id: 37
+  name: Brockville
+  country_id: 43
+  id: 3450
+grimshaw_17439: 
+  country_subdivision_id: 36
+  name: Grimshaw
+  country_id: 43
+  id: 17439
+comox_5816: 
+  country_subdivision_id: 43
+  name: Comox
+  country_id: 43
+  id: 5816
+ottawa_5906: 
+  country_subdivision_id: 37
+  name: Ottawa
+  country_id: 43
+  id: 5906
+slave_lake_5809: 
+  country_subdivision_id: 36
+  name: Slave Lake
+  country_id: 43
+  id: 5809
+englehart_14962: 
+  country_subdivision_id: 37
+  name: Englehart
+  country_id: 43
+  id: 14962
+mont_laurier_5936: 
+  country_subdivision_id: 35
+  name: Mont-laurier
+  country_id: 43
+  id: 5936
+sturgeon_falls_5916: 
+  country_subdivision_id: 37
+  name: Sturgeon Falls
+  country_id: 43
+  id: 5916
+fergus_14774: 
+  country_subdivision_id: 37
+  name: Fergus
+  country_id: 43
+  id: 14774
+unionville_42351: 
+  country_subdivision_id: 37
+  name: Unionville
+  country_id: 43
+  id: 42351
+winnipeg_1230: 
+  country_subdivision_id: 38
+  name: Winnipeg
+  country_id: 43
+  id: 1230
+slocan_16388: 
+  country_subdivision_id: 43
+  name: Slocan
+  country_id: 43
+  id: 16388
+scarborough_3480: 
+  country_subdivision_id: 37
+  name: Scarborough
+  country_id: 43
+  id: 3480
+sault_ste._marie_17350: 
+  country_subdivision_id: 37
+  name: Sault Ste. Marie
+  country_id: 43
+  id: 17350
+beaumont_12058: 
+  country_subdivision_id: 35
+  name: Beaumont
+  country_id: 43
+  id: 12058
+shawinigan_15451: 
+  country_subdivision_id: 35
+  name: Shawinigan
+  country_id: 43
+  id: 15451
+powell_river_13449: 
+  country_subdivision_id: 43
+  name: Powell River
+  country_id: 43
+  id: 13449
+lachine_16742: 
+  country_subdivision_id: 35
+  name: Lachine
+  country_id: 43
+  id: 16742
+north_vancouver_12370: 
+  country_subdivision_id: 43
+  name: North Vancouver
+  country_id: 43
+  id: 12370
+edys_mills_15402: 
+  country_subdivision_id: 37
+  name: Edys Mills
+  country_id: 43
+  id: 15402
+hamilton_3460: 
+  country_subdivision_id: 37
+  name: Hamilton
+  country_id: 43
+  id: 3460
+woodbridge_41959: 
+  country_subdivision_id: 37
+  name: Woodbridge
+  country_id: 43
+  id: 41959
+edmundston_5863: 
+  country_subdivision_id: 42
+  name: Edmundston
+  country_id: 43
+  id: 5863
+burwash_5964: 
+  country_subdivision_id: 815
+  name: Burwash
+  country_id: 43
+  id: 5964
+baie_comeau_13548: 
+  country_subdivision_id: 35
+  name: Baie-Comeau
+  country_id: 43
+  id: 13548
+teslin_5973: 
+  country_subdivision_id: 815
+  name: Teslin
+  country_id: 43
+  id: 5973
+welland_12066: 
+  country_subdivision_id: 37
+  name: Welland
+  country_id: 43
+  id: 12066
+rexdale_18047: 
+  country_subdivision_id: 37
+  name: Rexdale
+  country_id: 43
+  id: 18047
+banff_5793: 
+  country_subdivision_id: 36
+  name: Banff
+  country_id: 43
+  id: 5793
+collingwood_3453: 
+  country_subdivision_id: 37
+  name: Collingwood
+  country_id: 43
+  id: 3453
+glace_bay_16484: 
+  country_subdivision_id: 39
+  name: Glace Bay
+  country_id: 43
+  id: 16484
+seven_sister_falls__42271: 
+  country_subdivision_id: 38
+  name: "Seven Sister Falls  "
+  country_id: 43
+  id: 42271
+steinbach_5860: 
+  country_subdivision_id: 38
+  name: Steinbach
+  country_id: 43
+  id: 5860
+parksville_14187: 
+  country_subdivision_id: 43
+  name: Parksville
+  country_id: 43
+  id: 14187
+grand_bend_5892: 
+  country_subdivision_id: 37
+  name: Grand Bend
+  country_id: 43
+  id: 5892
+coboconk_15888: 
+  country_subdivision_id: 37
+  name: Coboconk
+  country_id: 43
+  id: 15888
+bagotville_5926: 
+  country_subdivision_id: 35
+  name: Bagotville
+  country_id: 43
+  id: 5926
+ethel_14351: 
+  country_subdivision_id: 37
+  name: Ethel
+  country_id: 43
+  id: 14351
+airdrie_15809: 
+  country_subdivision_id: 36
+  name: Airdrie
+  country_id: 43
+  id: 15809
+boucherville_13247: 
+  country_subdivision_id: 35
+  name: Boucherville
+  country_id: 43
+  id: 13247
+weyburn_18194: 
+  country_subdivision_id: 40
+  name: Weyburn
+  country_id: 43
+  id: 18194
+killarney_14431: 
+  country_subdivision_id: 38
+  name: Killarney
+  country_id: 43
+  id: 14431
+chilliwack_14055: 
+  country_subdivision_id: 43
+  name: Chilliwack
+  country_id: 43
+  id: 14055
+pointe_au_pere_16518: 
+  country_subdivision_id: 35
+  name: Pointe-Au-Pere
+  country_id: 43
+  id: 16518
+ajax_13268: 
+  country_subdivision_id: 37
+  name: Ajax
+  country_id: 43
+  id: 13268
+midland_17451: 
+  country_subdivision_id: 37
+  name: Midland
+  country_id: 43
+  id: 17451
+hope_14156: 
+  country_subdivision_id: 43
+  name: Hope
+  country_id: 43
+  id: 14156
+fort_smith_42264: 
+  country_subdivision_id: 46
+  name: Fort Smith
+  country_id: 43
+  id: 42264
+melville_17752: 
+  country_subdivision_id: 40
+  name: Melville
+  country_id: 43
+  id: 17752
+charlottetown_1332: 
+  country_subdivision_id: 45
+  name: Charlottetown
+  country_id: 43
+  id: 1332
+grimsby_11799: 
+  country_subdivision_id: 37
+  name: Grimsby
+  country_id: 43
+  id: 11799
+la_pocatiere_18732: 
+  country_subdivision_id: 35
+  name: La Pocatiere
+  country_id: 43
+  id: 18732
+newmarket_13163: 
+  country_subdivision_id: 37
+  name: Newmarket
+  country_id: 43
+  id: 13163
+chatham_5862: 
+  country_subdivision_id: 42
+  name: Chatham
+  country_id: 43
+  id: 5862
+lennoxville_17266: 
+  country_subdivision_id: 35
+  name: Lennoxville
+  country_id: 43
+  id: 17266
+mattawa_5902: 
+  country_subdivision_id: 37
+  name: Mattawa
+  country_id: 43
+  id: 5902
+verchres_17756: 
+  country_subdivision_id: 35
+  name: Verchres
+  country_id: 43
+  id: 17756
+sussex_17977: 
+  country_subdivision_id: 42
+  name: Sussex
+  country_id: 43
+  id: 17977
+acton_vale_41794: 
+  country_subdivision_id: 35
+  name: Acton Vale
+  country_id: 43
+  id: 41794
+cumberland_15143: 
+  country_subdivision_id: 43
+  name: Cumberland
+  country_id: 43
+  id: 15143
+kitimat_13542: 
+  country_subdivision_id: 43
+  name: Kitimat
+  country_id: 43
+  id: 13542
+winfield_18752: 
+  country_subdivision_id: 43
+  name: Winfield
+  country_id: 43
+  id: 18752
+huntsville_5894: 
+  country_subdivision_id: 37
+  name: Huntsville
+  country_id: 43
+  id: 5894
+barrhead_18056: 
+  country_subdivision_id: 36
+  name: Barrhead
+  country_id: 43
+  id: 18056
+burlington_3452: 
+  country_subdivision_id: 37
+  name: Burlington
+  country_id: 43
+  id: 3452
+westport_18315: 
+  country_subdivision_id: 37
+  name: Westport
+  country_id: 43
+  id: 18315
+qu_appelle_16144: 
+  country_subdivision_id: 40
+  name: Qu'Appelle
+  country_id: 43
+  id: 16144
+kanata_12475: 
+  country_subdivision_id: 37
+  name: Kanata
+  country_id: 43
+  id: 12475
+hawkesbury_5893: 
+  country_subdivision_id: 37
+  name: Hawkesbury
+  country_id: 43
+  id: 5893
+wawa_3489: 
+  country_subdivision_id: 37
+  name: Wawa
+  country_id: 43
+  id: 3489
+haliburton_16991: 
+  country_subdivision_id: 37
+  name: Haliburton
+  country_id: 43
+  id: 16991
+oakville_12063: 
+  country_subdivision_id: 37
+  name: Oakville
+  country_id: 43
+  id: 12063
+north_delta_15759: 
+  country_subdivision_id: 43
+  name: North Delta
+  country_id: 43
+  id: 15759
+barrie_11779: 
+  country_subdivision_id: 37
+  name: Barrie
+  country_id: 43
+  id: 11779
+lethbridge_5803: 
+  country_subdivision_id: 36
+  name: Lethbridge
+  country_id: 43
+  id: 5803
+selkirk_15234: 
+  country_subdivision_id: 38
+  name: Selkirk
+  country_id: 43
+  id: 15234
+bridgewater_5874: 
+  country_subdivision_id: 39
+  name: Bridgewater
+  country_id: 43
+  id: 5874
+longueuil_17733: 
+  country_subdivision_id: 35
+  name: Longueuil
+  country_id: 43
+  id: 17733
+camrose_11808: 
+  country_subdivision_id: 36
+  name: Camrose
+  country_id: 43
+  id: 11808
+campbellford_18584: 
+  country_subdivision_id: 37
+  name: Campbellford
+  country_id: 43
+  id: 18584
+espanola_17060: 
+  country_subdivision_id: 37
+  name: Espanola
+  country_id: 43
+  id: 17060
+minnedosa_16989: 
+  country_subdivision_id: 38
+  name: Minnedosa
+  country_id: 43
+  id: 16989
+london_5900: 
+  country_subdivision_id: 37
+  name: London
+  country_id: 43
+  id: 5900
+port_hawksbury_5878: 
+  country_subdivision_id: 39
+  name: Port Hawksbury
+  country_id: 43
+  id: 5878
+shawnigan_lake_14758: 
+  country_subdivision_id: 43
+  name: Shawnigan Lake
+  country_id: 43
+  id: 14758
+kelowna_5818: 
+  country_subdivision_id: 43
+  name: Kelowna
+  country_id: 43
+  id: 5818
+beaverlodge_17366: 
+  country_subdivision_id: 36
+  name: Beaverlodge
+  country_id: 43
+  id: 17366
+saint_hippolyte_de_kilkenny_13265: 
+  country_subdivision_id: 35
+  name: Saint-Hippolyte-de-Kilkenny
+  country_id: 43
+  id: 13265
+matane_17504: 
+  country_subdivision_id: 35
+  name: Matane
+  country_id: 43
+  id: 17504
+brampton_12054: 
+  country_subdivision_id: 37
+  name: Brampton
+  country_id: 43
+  id: 12054
+la_tuque_5934: 
+  country_subdivision_id: 35
+  name: La Tuque
+  country_id: 43
+  id: 5934
+prince_rupert_3476: 
+  country_subdivision_id: 43
+  name: Prince Rupert
+  country_id: 43
+  id: 3476
+fox_creek_12987: 
+  country_subdivision_id: 36
+  name: Fox Creek
+  country_id: 43
+  id: 12987
+neilburg_16866: 
+  country_subdivision_id: 40
+  name: Neilburg
+  country_id: 43
+  id: 16866
+brighton_17374: 
+  country_subdivision_id: 37
+  name: Brighton
+  country_id: 43
+  id: 17374
+saint_lambert_18301: 
+  country_subdivision_id: 35
+  name: Saint-Lambert
+  country_id: 43
+  id: 18301
+leader_17330: 
+  country_subdivision_id: 40
+  name: Leader
+  country_id: 43
+  id: 17330
+duncan_12038: 
+  country_subdivision_id: 43
+  name: Duncan
+  country_id: 43
+  id: 12038
+mont_joli_5935: 
+  country_subdivision_id: 35
+  name: Mont-Joli
+  country_id: 43
+  id: 5935
+leamington_3464: 
+  country_subdivision_id: 37
+  name: Leamington
+  country_id: 43
+  id: 3464
+temiscaming_5941: 
+  country_subdivision_id: 35
+  name: Temiscaming
+  country_id: 43
+  id: 5941
+dolbeau_17393: 
+  country_subdivision_id: 35
+  name: Dolbeau
+  country_id: 43
+  id: 17393
+candiac_41992: 
+  country_subdivision_id: 35
+  name: Candiac
+  country_id: 43
+  id: 41992
+new_glasgow_5877: 
+  country_subdivision_id: 39
+  name: New Glasgow
+  country_id: 43
+  id: 5877
+edmonton_1205: 
+  country_subdivision_id: 36
+  name: Edmonton
+  country_id: 43
+  id: 1205
+deseronto_17238: 
+  country_subdivision_id: 37
+  name: Deseronto
+  country_id: 43
+  id: 17238
+moose_jaw_5945: 
+  country_subdivision_id: 40
+  name: Moose Jaw
+  country_id: 43
+  id: 5945
+georgina_3457: 
+  country_subdivision_id: 37
+  name: Georgina
+  country_id: 43
+  id: 3457
+victoriaville_13671: 
+  country_subdivision_id: 35
+  name: Victoriaville
+  country_id: 43
+  id: 13671
+parry_sound_15529: 
+  country_subdivision_id: 37
+  name: Parry Sound
+  country_id: 43
+  id: 15529
+thornhill_12970: 
+  country_subdivision_id: 37
+  name: Thornhill
+  country_id: 43
+  id: 12970
+cap_de_la_madeleine_16176: 
+  country_subdivision_id: 35
+  name: Cap-de-la-Madeleine
+  country_id: 43
+  id: 16176
+antrim_5882: 
+  country_subdivision_id: 37
+  name: Antrim
+  country_id: 43
+  id: 5882
+whitney_5923: 
+  country_subdivision_id: 37
+  name: Whitney
+  country_id: 43
+  id: 5923
+wakefield_42071: 
+  country_subdivision_id: 35
+  name: Wakefield
+  country_id: 43
+  id: 42071
+stewart_11991: 
+  country_subdivision_id: 43
+  name: Stewart
+  country_id: 43
+  id: 11991
+mayo_5969: 
+  country_subdivision_id: 815
+  name: Mayo
+  country_id: 43
+  id: 5969
+la_baie_16682: 
+  country_subdivision_id: 35
+  name: La Baie
+  country_id: 43
+  id: 16682
+parkhill_12802: 
+  country_subdivision_id: 37
+  name: Parkhill
+  country_id: 43
+  id: 12802
+pickering_12636: 
+  country_subdivision_id: 37
+  name: Pickering
+  country_id: 43
+  id: 12636
+iberville_16146: 
+  country_subdivision_id: 35
+  name: Iberville
+  country_id: 43
+  id: 16146
+nestor_falls_42043: 
+  country_subdivision_id: 37
+  name: Nestor Falls
+  country_id: 43
+  id: 42043
+orangeville_16371: 
+  country_subdivision_id: 37
+  name: Orangeville
+  country_id: 43
+  id: 16371
+gabriola_11827: 
+  country_subdivision_id: 43
+  name: Gabriola
+  country_id: 43
+  id: 11827
+port_elgin_14641: 
+  country_subdivision_id: 37
+  name: Port Elgin
+  country_id: 43
+  id: 14641
+penticton_5820: 
+  country_subdivision_id: 43
+  name: Penticton
+  country_id: 43
+  id: 5820
+grunthal_13861: 
+  country_subdivision_id: 38
+  name: Grunthal
+  country_id: 43
+  id: 13861
+prince_george_5821: 
+  country_subdivision_id: 43
+  name: Prince George
+  country_id: 43
+  id: 5821
+saint_ours_17564: 
+  country_subdivision_id: 35
+  name: Saint-Ours
+  country_id: 43
+  id: 17564
+salt_spring_island_13050: 
+  country_subdivision_id: 43
+  name: Salt Spring Island
+  country_id: 43
+  id: 13050
+moncton_3469: 
+  country_subdivision_id: 42
+  name: Moncton
+  country_id: 43
+  id: 3469
+quesnel_13606: 
+  country_subdivision_id: 43
+  name: Quesnel
+  country_id: 43
+  id: 13606
+wolfville_13656: 
+  country_subdivision_id: 39
+  name: Wolfville
+  country_id: 43
+  id: 13656
+alliston_16359: 
+  country_subdivision_id: 37
+  name: Alliston
+  country_id: 43
+  id: 16359
+mount_pearl_13852: 
+  country_subdivision_id: 41
+  name: Mount Pearl
+  country_id: 43
+  id: 13852
+churchill_5855: 
+  country_subdivision_id: 38
+  name: Churchill
+  country_id: 43
+  id: 5855
+saint_donat_de_montcalm_17575: 
+  country_subdivision_id: 35
+  name: Saint-Donat-de-Montcalm
+  country_id: 43
+  id: 17575
+kensington_16687: 
+  country_subdivision_id: 45
+  name: Kensington
+  country_id: 43
+  id: 16687
+winchester_16169: 
+  country_subdivision_id: 37
+  name: Winchester
+  country_id: 43
+  id: 16169
+montreal_1182: 
+  country_subdivision_id: 35
+  name: Montreal
+  country_id: 43
+  id: 1182
+waterdown_18650: 
+  country_subdivision_id: 37
+  name: Waterdown
+  country_id: 43
+  id: 18650
+sainte_julie_18123: 
+  country_subdivision_id: 35
+  name: Sainte-Julie
+  country_id: 43
+  id: 18123
+creston_42274: 
+  country_subdivision_id: 43
+  name: Creston
+  country_id: 43
+  id: 42274
+pierrefonds_11857: 
+  country_subdivision_id: 35
+  name: Pierrefonds
+  country_id: 43
+  id: 11857
+nelson_17151: 
+  country_subdivision_id: 43
+  name: Nelson
+  country_id: 43
+  id: 17151
+uxbridge_13273: 
+  country_subdivision_id: 37
+  name: Uxbridge
+  country_id: 43
+  id: 13273
+kirkland_lake_5897: 
+  country_subdivision_id: 37
+  name: Kirkland Lake
+  country_id: 43
+  id: 5897
+saint_robert_17558: 
+  country_subdivision_id: 35
+  name: Saint-Robert
+  country_id: 43
+  id: 17558
+thunder_bay_3486: 
+  country_subdivision_id: 37
+  name: Thunder Bay
+  country_id: 43
+  id: 3486
+mission_12148: 
+  country_subdivision_id: 43
+  name: Mission
+  country_id: 43
+  id: 12148
+buckingham_12147: 
+  country_subdivision_id: 35
+  name: Buckingham
+  country_id: 43
+  id: 12147
+stirling_18129: 
+  country_subdivision_id: 37
+  name: Stirling
+  country_id: 43
+  id: 18129
+kitchener_5898: 
+  country_subdivision_id: 37
+  name: Kitchener
+  country_id: 43
+  id: 5898
+mississauga_11750: 
+  country_subdivision_id: 37
+  name: Mississauga
+  country_id: 43
+  id: 11750
+macamic_15023: 
+  country_subdivision_id: 35
+  name: Macamic
+  country_id: 43
+  id: 15023
+kincardine_14712: 
+  country_subdivision_id: 37
+  name: Kincardine
+  country_id: 43
+  id: 14712
+wainwright_5810: 
+  country_subdivision_id: 36
+  name: Wainwright
+  country_id: 43
+  id: 5810
+digby_5875: 
+  country_subdivision_id: 39
+  name: Digby
+  country_id: 43
+  id: 5875
+thetford_mines_5942: 
+  country_subdivision_id: 35
+  name: Thetford Mines
+  country_id: 43
+  id: 5942
+inuvik_5870: 
+  country_subdivision_id: 46
+  name: Inuvik
+  country_id: 43
+  id: 5870
+thamesford_17349: 
+  country_subdivision_id: 37
+  name: Thamesford
+  country_id: 43
+  id: 17349
+flin_flon_14079: 
+  country_subdivision_id: 38
+  name: Flin Flon
+  country_id: 43
+  id: 14079
+etobicoke_41942: 
+  country_subdivision_id: 37
+  name: Etobicoke
+  country_id: 43
+  id: 41942
+abbotsford_5812: 
+  country_subdivision_id: 43
+  name: Abbotsford
+  country_id: 43
+  id: 5812
+cobble_hill_17507: 
+  country_subdivision_id: 43
+  name: Cobble Hill
+  country_id: 43
+  id: 17507
+trenton_5920: 
+  country_subdivision_id: 37
+  name: Trenton
+  country_id: 43
+  id: 5920
+prince_albert_12857: 
+  country_subdivision_id: 40
+  name: Prince Albert
+  country_id: 43
+  id: 12857
+truro_5880: 
+  country_subdivision_id: 39
+  name: Truro
+  country_id: 43
+  id: 5880
+dollard_des_ormeaux_17573: 
+  country_subdivision_id: 35
+  name: Dollard-des-Ormeaux
+  country_id: 43
+  id: 17573
+kuujjuaq_5932: 
+  country_subdivision_id: 35
+  name: Kuujjuaq
+  country_id: 43
+  id: 5932
+masson_17893: 
+  country_subdivision_id: 35
+  name: Masson
+  country_id: 43
+  id: 17893
+woodstock_3492: 
+  country_subdivision_id: 37
+  name: Woodstock
+  country_id: 43
+  id: 3492
+north_york_12385: 
+  country_subdivision_id: 37
+  name: North York
+  country_id: 43
+  id: 12385
+cambridge_bay_42088: 
+  country_subdivision_id: 46
+  name: Cambridge Bay
+  country_id: 43
+  id: 42088
+cranbrook_3455: 
+  country_subdivision_id: 43
+  name: Cranbrook
+  country_id: 43
+  id: 3455
+beaverton_14810: 
+  country_subdivision_id: 37
+  name: Beaverton
+  country_id: 43
+  id: 14810
+becancour_15341: 
+  country_subdivision_id: 35
+  name: Becancour
+  country_id: 43
+  id: 15341
+humboldt_42009: 
+  country_subdivision_id: 40
+  name: Humboldt
+  country_id: 43
+  id: 42009
+south_river_5913: 
+  country_subdivision_id: 37
+  name: South River
+  country_id: 43
+  id: 5913
+dorchester_18366: 
+  country_subdivision_id: 37
+  name: Dorchester
+  country_id: 43
+  id: 18366
+simcoe_16030: 
+  country_subdivision_id: 37
+  name: Simcoe
+  country_id: 43
+  id: 16030
+elora_17342: 
+  country_subdivision_id: 37
+  name: Elora
+  country_id: 43
+  id: 17342
+langley_14071: 
+  country_subdivision_id: 43
+  name: Langley
+  country_id: 43
+  id: 14071
+saint_thomas_5915: 
+  country_subdivision_id: 37
+  name: Saint Thomas
+  country_id: 43
+  id: 5915
+blenheim_18434: 
+  country_subdivision_id: 37
+  name: Blenheim
+  country_id: 43
+  id: 18434
+campbell_river_5814: 
+  country_subdivision_id: 43
+  name: Campbell River
+  country_id: 43
+  id: 5814
+powassan_5910: 
+  country_subdivision_id: 37
+  name: Powassan
+  country_id: 43
+  id: 5910
+grand_falls_windsor_16675: 
+  country_subdivision_id: 41
+  name: Grand Falls-Windsor
+  country_id: 43
+  id: 16675
+chelmsford_15274: 
+  country_subdivision_id: 37
+  name: Chelmsford
+  country_id: 43
+  id: 15274
+sherbrooke_5940: 
+  country_subdivision_id: 35
+  name: Sherbrooke
+  country_id: 43
+  id: 5940
+bathurst_13486: 
+  country_subdivision_id: 42
+  name: Bathurst
+  country_id: 43
+  id: 13486
+newcastle_13487: 
+  country_subdivision_id: 37
+  name: Newcastle
+  country_id: 43
+  id: 13487
+fort_mcmurray_5798: 
+  country_subdivision_id: 36
+  name: Fort McMurray
+  country_id: 43
+  id: 5798
+iqaluit_5871: 
+  country_subdivision_id: 4996
+  name: Iqaluit
+  country_id: 43
+  id: 5871
+coquitlam_17773: 
+  country_subdivision_id: 43
+  name: Coquitlam
+  country_id: 43
+  id: 17773
+yorkton_16634: 
+  country_subdivision_id: 40
+  name: Yorkton
+  country_id: 43
+  id: 16634
+cobalt_5887: 
+  country_subdivision_id: 37
+  name: Cobalt
+  country_id: 43
+  id: 5887
+la_sarre_15024: 
+  country_subdivision_id: 35
+  name: La Sarre
+  country_id: 43
+  id: 15024
+upsula_5921: 
+  country_subdivision_id: 37
+  name: Upsula
+  country_id: 43
+  id: 5921
+squamish_15073: 
+  country_subdivision_id: 43
+  name: Squamish
+  country_id: 43
+  id: 15073
+vaughan_15782: 
+  country_subdivision_id: 37
+  name: Vaughan
+  country_id: 43
+  id: 15782
+aylmer_12318: 
+  country_subdivision_id: 35
+  name: Aylmer
+  country_id: 43
+  id: 12318
+saint_john_3483: 
+  country_subdivision_id: 42
+  name: Saint John
+  country_id: 43
+  id: 3483
+fort_erie_42324: 
+  country_subdivision_id: 37
+  name: Fort Erie
+  country_id: 43
+  id: 42324
+saint_pascal_18314: 
+  country_subdivision_id: 35
+  name: Saint-Pascal
+  country_id: 43
+  id: 18314
+kemptville_5895: 
+  country_subdivision_id: 37
+  name: Kemptville
+  country_id: 43
+  id: 5895
+lower_sackville_12719: 
+  country_subdivision_id: 39
+  name: Lower Sackville
+  country_id: 43
+  id: 12719
+schomberg_13059: 
+  country_subdivision_id: 37
+  name: Schomberg
+  country_id: 43
+  id: 13059
+fernie_12035: 
+  country_subdivision_id: 43
+  name: Fernie
+  country_id: 43
+  id: 12035
+fort_macleod_16602: 
+  country_subdivision_id: 36
+  name: Fort Macleod
+  country_id: 43
+  id: 16602
+new_minas_42312: 
+  country_subdivision_id: 39
+  name: New Minas
+  country_id: 43
+  id: 42312
+waterford_16506: 
+  country_subdivision_id: 37
+  name: Waterford
+  country_id: 43
+  id: 16506
+milton_14001: 
+  country_subdivision_id: 37
+  name: Milton
+  country_id: 43
+  id: 14001
+armstrong_12438: 
+  country_subdivision_id: 43
+  name: Armstrong
+  country_id: 43
+  id: 12438
+vernon_3487: 
+  country_subdivision_id: 43
+  name: Vernon
+  country_id: 43
+  id: 3487
+estevan_13002: 
+  country_subdivision_id: 40
+  name: Estevan
+  country_id: 43
+  id: 13002
+yarmouth_5881: 
+  country_subdivision_id: 39
+  name: Yarmouth
+  country_id: 43
+  id: 5881
+la_salle_3463: 
+  country_subdivision_id: 35
+  name: La Salle
+  country_id: 43
+  id: 3463
+delta_17197: 
+  country_subdivision_id: 37
+  name: Delta
+  country_id: 43
+  id: 17197
+markstay_16716: 
+  country_subdivision_id: 37
+  name: Markstay
+  country_id: 43
+  id: 16716
+crowsnest_pass_18083: 
+  country_subdivision_id: 36
+  name: Crowsnest Pass
+  country_id: 43
+  id: 18083
+sorel_17556: 
+  country_subdivision_id: 35
+  name: Sorel
+  country_id: 43
+  id: 17556
+pembroke_5907: 
+  country_subdivision_id: 37
+  name: Pembroke
+  country_id: 43
+  id: 5907
+fort_chipeyan_5797: 
+  country_subdivision_id: 36
+  name: Fort Chipeyan
+  country_id: 43
+  id: 5797
+dawson_creek_3456: 
+  country_subdivision_id: 43
+  name: Dawson Creek
+  country_id: 43
+  id: 3456
+okanagan_falls_17995: 
+  country_subdivision_id: 43
+  name: Okanagan Falls
+  country_id: 43
+  id: 17995
+north_bay_5905: 
+  country_subdivision_id: 37
+  name: North Bay
+  country_id: 43
+  id: 5905
+wallaceburg_16220: 
+  country_subdivision_id: 37
+  name: Wallaceburg
+  country_id: 43
+  id: 16220
+dunnville_17320: 
+  country_subdivision_id: 37
+  name: Dunnville
+  country_id: 43
+  id: 17320
+saint_marcel_17569: 
+  country_subdivision_id: 35
+  name: Saint-Marcel
+  country_id: 43
+  id: 17569
+aldergrove_15578: 
+  country_subdivision_id: 43
+  name: Aldergrove
+  country_id: 43
+  id: 15578
+olds_17611: 
+  country_subdivision_id: 36
+  name: olds
+  country_id: 43
+  id: 17611
+fort_nelson_12375: 
+  country_subdivision_id: 43
+  name: Fort Nelson
+  country_id: 43
+  id: 12375
+brandon_3449: 
+  country_subdivision_id: 38
+  name: Brandon
+  country_id: 43
+  id: 3449
+southampton_16619: 
+  country_subdivision_id: 37
+  name: Southampton
+  country_id: 43
+  id: 16619
+port_colborne_17851: 
+  country_subdivision_id: 37
+  name: Port Colborne
+  country_id: 43
+  id: 17851
+lac_mgantic_18982: 
+  country_subdivision_id: 35
+  name: Lac-Mgantic
+  country_id: 43
+  id: 18982
+brownlee_16768: 
+  country_subdivision_id: 40
+  name: Brownlee
+  country_id: 43
+  id: 16768
+rothesay_14318: 
+  country_subdivision_id: 42
+  name: Rothesay
+  country_id: 43
+  id: 14318
+brussels_3451: 
+  country_subdivision_id: 37
+  name: Brussels
+  country_id: 43
+  id: 3451
+sooke_15962: 
+  country_subdivision_id: 43
+  name: Sooke
+  country_id: 43
+  id: 15962
+les_mchins_18473: 
+  country_subdivision_id: 35
+  name: Les Mchins
+  country_id: 43
+  id: 18473
+sherwood_park_15494: 
+  country_subdivision_id: 36
+  name: Sherwood Park
+  country_id: 43
+  id: 15494
+corner_brook_14421: 
+  country_subdivision_id: 41
+  name: Corner Brook
+  country_id: 43
+  id: 14421
+castlegar_5815: 
+  country_subdivision_id: 43
+  name: Castlegar
+  country_id: 43
+  id: 5815
+tillsonburg_18282: 
+  country_subdivision_id: 37
+  name: Tillsonburg
+  country_id: 43
+  id: 18282
+red_deer_5807: 
+  country_subdivision_id: 36
+  name: Red Deer
+  country_id: 43
+  id: 5807
+richibucto_15653: 
+  country_subdivision_id: 42
+  name: Richibucto
+  country_id: 43
+  id: 15653
+waterloo_3488: 
+  country_subdivision_id: 37
+  name: Waterloo
+  country_id: 43
+  id: 3488
+hall_beach_16561: 
+  country_subdivision_id: 46
+  name: Hall Beach
+  country_id: 43
+  id: 16561
+shelburne_11837: 
+  country_subdivision_id: 37
+  name: Shelburne
+  country_id: 43
+  id: 11837
+surrey_11818: 
+  country_subdivision_id: 43
+  name: Surrey
+  country_id: 43
+  id: 11818
+rankin_inlet_16523: 
+  country_subdivision_id: 46
+  name: Rankin Inlet
+  country_id: 43
+  id: 16523
+saint_marys_13314: 
+  country_subdivision_id: 37
+  name: Saint Marys
+  country_id: 43
+  id: 13314
+riviere_du_loup_18309: 
+  country_subdivision_id: 35
+  name: Riviere-du-Loup
+  country_id: 43
+  id: 18309
+arnprior_5883: 
+  country_subdivision_id: 37
+  name: Arnprior
+  country_id: 43
+  id: 5883
+old_crow_5970: 
+  country_subdivision_id: 815
+  name: Old Crow
+  country_id: 43
+  id: 5970
+hull_5930: 
+  country_subdivision_id: 35
+  name: Hull
+  country_id: 43
+  id: 5930
+bracebridge_12019: 
+  country_subdivision_id: 37
+  name: Bracebridge
+  country_id: 43
+  id: 12019
+smithers_5822: 
+  country_subdivision_id: 43
+  name: Smithers
+  country_id: 43
+  id: 5822
+miramichi_12157: 
+  country_subdivision_id: 42
+  name: Miramichi
+  country_id: 43
+  id: 12157
+winona_18817: 
+  country_subdivision_id: 37
+  name: Winona
+  country_id: 43
+  id: 18817
+pilot_mound_5858: 
+  country_subdivision_id: 38
+  name: Pilot Mound
+  country_id: 43
+  id: 5858
+saint_jovite_5938: 
+  country_subdivision_id: 35
+  name: Saint-Jovite
+  country_id: 43
+  id: 5938
+stratford_3484: 
+  country_subdivision_id: 37
+  name: Stratford
+  country_id: 43
+  id: 3484
+yellowknife_1333: 
+  country_subdivision_id: 46
+  name: Yellowknife
+  country_id: 43
+  id: 1333
+sioux_lookout_15237: 
+  country_subdivision_id: 37
+  name: Sioux Lookout
+  country_id: 43
+  id: 15237
+lvis_13194: 
+  country_subdivision_id: 35
+  name: Lvis
+  country_id: 43
+  id: 13194
+saint_louis_17570: 
+  country_subdivision_id: 35
+  name: Saint-Louis
+  country_id: 43
+  id: 17570
+prescott_15615: 
+  country_subdivision_id: 37
+  name: Prescott
+  country_id: 43
+  id: 15615
+winkler_13883: 
+  country_subdivision_id: 38
+  name: Winkler
+  country_id: 43
+  id: 13883
+kingsville_15819: 
+  country_subdivision_id: 37
+  name: Kingsville
+  country_id: 43
+  id: 15819
+cochrane_42015: 
+  country_subdivision_id: 37
+  name: Cochrane
+  country_id: 43
+  id: 42015
+lebel_sur_quevillon_15482: 
+  country_subdivision_id: 35
+  name: Lebel-sur-Quevillon
+  country_id: 43
+  id: 15482
+kananaskis_42092: 
+  country_subdivision_id: 36
+  name: Kananaskis
+  country_id: 43
+  id: 42092
+busby_17454: 
+  country_subdivision_id: 36
+  name: Busby
+  country_id: 43
+  id: 17454
+madoc_15949: 
+  country_subdivision_id: 37
+  name: Madoc
+  country_id: 43
+  id: 15949
+thorold_11880: 
+  country_subdivision_id: 37
+  name: Thorold
+  country_id: 43
+  id: 11880
+lloydminster_5804: 
+  country_subdivision_id: 36
+  name: Lloydminster
+  country_id: 43
+  id: 5804
+ponoka_15359: 
+  country_subdivision_id: 36
+  name: Ponoka
+  country_id: 43
+  id: 15359
+bradford_15480: 
+  country_subdivision_id: 37
+  name: Bradford
+  country_id: 43
+  id: 15480
+terrebonne_16708: 
+  country_subdivision_id: 35
+  name: Terrebonne
+  country_id: 43
+  id: 16708
+bowmanville_15195: 
+  country_subdivision_id: 37
+  name: Bowmanville
+  country_id: 43
+  id: 15195
+amherst_5873: 
+  country_subdivision_id: 39
+  name: Amherst
+  country_id: 43
+  id: 5873
+halifax_1284: 
+  country_subdivision_id: 39
+  name: Halifax
+  country_id: 43
+  id: 1284
+dryden_5890: 
+  country_subdivision_id: 37
+  name: Dryden
+  country_id: 43
+  id: 5890
+port_stanley_5909: 
+  country_subdivision_id: 37
+  name: Port Stanley
+  country_id: 43
+  id: 5909
+brantford_5885: 
+  country_subdivision_id: 37
+  name: Brantford
+  country_id: 43
+  id: 5885
+hearst_15219: 
+  country_subdivision_id: 37
+  name: Hearst
+  country_id: 43
+  id: 15219
+quispamsis_16306: 
+  country_subdivision_id: 42
+  name: Quispamsis
+  country_id: 43
+  id: 16306
+chesley_14869: 
+  country_subdivision_id: 37
+  name: Chesley
+  country_id: 43
+  id: 14869
+orillia_3470: 
+  country_subdivision_id: 37
+  name: Orillia
+  country_id: 43
+  id: 3470
+delta_12814: 
+  country_subdivision_id: 43
+  name: Delta
+  country_id: 43
+  id: 12814
+plumas_15215: 
+  country_subdivision_id: 38
+  name: Plumas
+  country_id: 43
+  id: 15215
+regina_1292: 
+  country_subdivision_id: 40
+  name: Regina
+  country_id: 43
+  id: 1292
+calabogie_17986: 
+  country_subdivision_id: 37
+  name: Calabogie
+  country_id: 43
+  id: 17986
+qualicum_beach_13295: 
+  country_subdivision_id: 43
+  name: Qualicum Beach
+  country_id: 43
+  id: 13295
+aurora_12139: 
+  country_subdivision_id: 37
+  name: Aurora
+  country_id: 43
+  id: 12139
+valleyfield_15965: 
+  country_subdivision_id: 35
+  name: Valleyfield
+  country_id: 43
+  id: 15965
+oshawa_11997: 
+  country_subdivision_id: 37
+  name: Oshawa
+  country_id: 43
+  id: 11997
+beausejour_42270: 
+  country_subdivision_id: 38
+  name: Beausejour
+  country_id: 43
+  id: 42270
+tiverton_17014: 
+  country_subdivision_id: 39
+  name: Tiverton
+  country_id: 43
+  id: 17014
+spruce_grove_12785: 
+  country_subdivision_id: 36
+  name: Spruce Grove
+  country_id: 43
+  id: 12785
+paris_14539: 
+  country_subdivision_id: 37
+  name: Paris
+  country_id: 43
+  id: 14539
+trail__42307: 
+  country_subdivision_id: 43
+  name: "Trail "
+  country_id: 43
+  id: 42307
+new_maryland_16535: 
+  country_subdivision_id: 42
+  name: New Maryland
+  country_id: 43
+  id: 16535
+saint_jean_sur_richelieu_15243: 
+  country_subdivision_id: 35
+  name: Saint Jean sur Richelieu
+  country_id: 43
+  id: 15243
+happy_valley_goose_bay_14853: 
+  country_subdivision_id: 41
+  name: Happy Valley-Goose Bay
+  country_id: 43
+  id: 14853
+peterborough_3474: 
+  country_subdivision_id: 37
+  name: Peterborough
+  country_id: 43
+  id: 3474
+chibougamau_5928: 
+  country_subdivision_id: 35
+  name: Chibougamau
+  country_id: 43
+  id: 5928
+campbellton_13565: 
+  country_subdivision_id: 42
+  name: Campbellton
+  country_id: 43
+  id: 13565
+salmon_arm_15347: 
+  country_subdivision_id: 43
+  name: Salmon Arm
+  country_id: 43
+  id: 15347
+norquay_16512: 
+  country_subdivision_id: 40
+  name: Norquay
+  country_id: 43
+  id: 16512
+drayton_valley_14737: 
+  country_subdivision_id: 36
+  name: Drayton Valley
+  country_id: 43
+  id: 14737
+goose_bay_5867: 
+  country_subdivision_id: 41
+  name: Goose Bay
+  country_id: 43
+  id: 5867
+ross_river_5971: 
+  country_subdivision_id: 815
+  name: Ross River
+  country_id: 43
+  id: 5971
+dorset_18332: 
+  country_subdivision_id: 37
+  name: Dorset
+  country_id: 43
+  id: 18332
+pierreville_17566: 
+  country_subdivision_id: 35
+  name: Pierreville
+  country_id: 43
+  id: 17566
+gander_5866: 
+  country_subdivision_id: 41
+  name: Gander
+  country_id: 43
+  id: 5866
+deer_lake_5865: 
+  country_subdivision_id: 41
+  name: Deer Lake
+  country_id: 43
+  id: 5865
+thompson_5861: 
+  country_subdivision_id: 38
+  name: Thompson
+  country_id: 43
+  id: 5861
+gasp_14278: 
+  country_subdivision_id: 35
+  name: Gasp
+  country_id: 43
+  id: 14278
+osoyoos__42250: 
+  country_subdivision_id: 43
+  name: "Osoyoos "
+  country_id: 43
+  id: 42250
+petrolia_16611: 
+  country_subdivision_id: 37
+  name: Petrolia
+  country_id: 43
+  id: 16611
+moosonee_5903: 
+  country_subdivision_id: 37
+  name: Moosonee
+  country_id: 43
+  id: 5903
+deep_river_5889: 
+  country_subdivision_id: 37
+  name: Deep River
+  country_id: 43
+  id: 5889
+burk_s_falls_5886: 
+  country_subdivision_id: 37
+  name: Burk's Falls
+  country_id: 43
+  id: 5886
+jasper_5801: 
+  country_subdivision_id: 36
+  name: Jasper
+  country_id: 43
+  id: 5801
+shannonville_17424: 
+  country_subdivision_id: 37
+  name: Shannonville
+  country_id: 43
+  id: 17424
+snag_5972: 
+  country_subdivision_id: 815
+  name: Snag
+  country_id: 43
+  id: 5972
+casselman_17814: 
+  country_subdivision_id: 37
+  name: Casselman
+  country_id: 43
+  id: 17814
+ohsweken_16472: 
+  country_subdivision_id: 37
+  name: Ohsweken
+  country_id: 43
+  id: 16472
+perth_12289: 
+  country_subdivision_id: 37
+  name: Perth
+  country_id: 43
+  id: 12289
+saskatoon_5946: 
+  country_subdivision_id: 40
+  name: Saskatoon
+  country_id: 43
+  id: 5946
+petitcodiac_17978: 
+  country_subdivision_id: 42
+  name: Petitcodiac
+  country_id: 43
+  id: 17978
+odanak_17567: 
+  country_subdivision_id: 35
+  name: Odanak
+  country_id: 43
+  id: 17567
+bellefeuille_13325: 
+  country_subdivision_id: 35
+  name: Bellefeuille
+  country_id: 43
+  id: 13325
+cobourg_15327: 
+  country_subdivision_id: 37
+  name: Cobourg
+  country_id: 43
+  id: 15327
+nanaimo_5819: 
+  country_subdivision_id: 43
+  name: Nanaimo
+  country_id: 43
+  id: 5819
+island_lake_5857: 
+  country_subdivision_id: 38
+  name: Island Lake
+  country_id: 43
+  id: 5857
+beaver_creek_5963: 
+  country_subdivision_id: 815
+  name: Beaver Creek
+  country_id: 43
+  id: 5963
+novar_13113: 
+  country_subdivision_id: 37
+  name: Novar
+  country_id: 43
+  id: 13113
+watson_lake_5974: 
+  country_subdivision_id: 815
+  name: Watson Lake
+  country_id: 43
+  id: 5974
+picton_14129: 
+  country_subdivision_id: 37
+  name: Picton
+  country_id: 43
+  id: 14129
+carcross_14097: 
+  country_subdivision_id: 815
+  name: Carcross
+  country_id: 43
+  id: 14097
+kingston_3462: 
+  country_subdivision_id: 37
+  name: Kingston
+  country_id: 43
+  id: 3462
+summerland_17679: 
+  country_subdivision_id: 43
+  name: Summerland
+  country_id: 43
+  id: 17679
+stouffville_42064: 
+  country_subdivision_id: 37
+  name: Stouffville
+  country_id: 43
+  id: 42064
+smiths_falls_16015: 
+  country_subdivision_id: 37
+  name: Smiths Falls
+  country_id: 43
+  id: 16015
+stettler_12473: 
+  country_subdivision_id: 36
+  name: Stettler
+  country_id: 43
+  id: 12473
+mackey_42343: 
+  country_subdivision_id: 37
+  name: Mackey
+  country_id: 43
+  id: 42343
+rouyn_noranda_15025: 
+  country_subdivision_id: 35
+  name: Rouyn-Noranda
+  country_id: 43
+  id: 15025
+kentville_5876: 
+  country_subdivision_id: 39
+  name: Kentville
+  country_id: 43
+  id: 5876
+vankleek_hill_18033: 
+  country_subdivision_id: 37
+  name: Vankleek Hill
+  country_id: 43
+  id: 18033
+cardston_13514: 
+  country_subdivision_id: 36
+  name: Cardston
+  country_id: 43
+  id: 13514
+fredericton_1298: 
+  country_subdivision_id: 42
+  name: Fredericton
+  country_id: 43
+  id: 1298
+white_river_5922: 
+  country_subdivision_id: 37
+  name: White River
+  country_id: 43
+  id: 5922
+new_westminster_14992: 
+  country_subdivision_id: 43
+  name: New Westminster
+  country_id: 43
+  id: 14992
+chetwynd_12702: 
+  country_subdivision_id: 43
+  name: Chetwynd
+  country_id: 43
+  id: 12702
+lancaster_17927: 
+  country_subdivision_id: 37
+  name: Lancaster
+  country_id: 43
+  id: 17927
+saint_lazare_13214: 
+  country_subdivision_id: 35
+  name: Saint-Lazare
+  country_id: 43
+  id: 13214
+la_crete_16092: 
+  country_subdivision_id: 36
+  name: La Crete
+  country_id: 43
+  id: 16092
+whitby_11866: 
+  country_subdivision_id: 37
+  name: Whitby
+  country_id: 43
+  id: 11866
+fort_st_john_5817: 
+  country_subdivision_id: 43
+  name: Fort St John
+  country_id: 43
+  id: 5817
+gananoque_16987: 
+  country_subdivision_id: 37
+  name: Gananoque
+  country_id: 43
+  id: 16987
+valleyview_13389: 
+  country_subdivision_id: 36
+  name: Valleyview
+  country_id: 43
+  id: 13389
+burnaby_12119: 
+  country_subdivision_id: 43
+  name: Burnaby
+  country_id: 43
+  id: 12119
+lindsay_5899: 
+  country_subdivision_id: 37
+  name: Lindsay
+  country_id: 43
+  id: 5899
+alida_16528: 
+  country_subdivision_id: 40
+  name: Alida
+  country_id: 43
+  id: 16528
+ingersoll_18582: 
+  country_subdivision_id: 37
+  name: Ingersoll
+  country_id: 43
+  id: 18582
+new_liskeard_17875: 
+  country_subdivision_id: 37
+  name: New Liskeard
+  country_id: 43
+  id: 17875
+dartmouth_12786: 
+  country_subdivision_id: 39
+  name: Dartmouth
+  country_id: 43
+  id: 12786
+bedford_12100: 
+  country_subdivision_id: 39
+  name: Bedford
+  country_id: 43
+  id: 12100
+gatineau_12317: 
+  country_subdivision_id: 35
+  name: Gatineau
+  country_id: 43
+  id: 12317
+antigonish_15238: 
+  country_subdivision_id: 39
+  name: Antigonish
+  country_id: 43
+  id: 15238
+wasaga_beach_15589: 
+  country_subdivision_id: 37
+  name: Wasaga Beach
+  country_id: 43
+  id: 15589
+marathon_17923: 
+  country_subdivision_id: 37
+  name: Marathon
+  country_id: 43
+  id: 17923
+lacombe_17103: 
+  country_subdivision_id: 36
+  name: Lacombe
+  country_id: 43
+  id: 17103
+north_battleford_11842: 
+  country_subdivision_id: 40
+  name: North Battleford
+  country_id: 43
+  id: 11842
+richmond_15282: 
+  country_subdivision_id: 43
+  name: Richmond
+  country_id: 43
+  id: 15282
+saint_casimir_12392: 
+  country_subdivision_id: 35
+  name: Saint-Casimir
+  country_id: 43
+  id: 12392
+rimouski_15802: 
+  country_subdivision_id: 35
+  name: Rimouski
+  country_id: 43
+  id: 15802
+merville_11878: 
+  country_subdivision_id: 43
+  name: Merville
+  country_id: 43
+  id: 11878
+tracy_17557: 
+  country_subdivision_id: 35
+  name: Tracy
+  country_id: 43
+  id: 17557
+renfrew_5911: 
+  country_subdivision_id: 37
+  name: Renfrew
+  country_id: 43
+  id: 5911
+cornwall_5888: 
+  country_subdivision_id: 37
+  name: Cornwall
+  country_id: 43
+  id: 5888
+peace_river_5806: 
+  country_subdivision_id: 36
+  name: Peace River
+  country_id: 43
+  id: 5806
+kapuskasing_12553: 
+  country_subdivision_id: 37
+  name: Kapuskasing
+  country_id: 43
+  id: 12553
+yamaska_17561: 
+  country_subdivision_id: 35
+  name: Yamaska
+  country_id: 43
+  id: 17561
+port_hope_11855: 
+  country_subdivision_id: 37
+  name: Port Hope
+  country_id: 43
+  id: 11855
+goderich_18028: 
+  country_subdivision_id: 37
+  name: Goderich
+  country_id: 43
+  id: 18028
+kamloops_3461: 
+  country_subdivision_id: 43
+  name: Kamloops
+  country_id: 43
+  id: 3461
+saint_hubert_15712: 
+  country_subdivision_id: 35
+  name: Saint-Hubert
+  country_id: 43
+  id: 15712
+portage_5859: 
+  country_subdivision_id: 38
+  name: Portage
+  country_id: 43
+  id: 5859
+mcbride_42341: 
+  country_subdivision_id: 43
+  name: McBride
+  country_id: 43
+  id: 42341
+rocky_mountain_house_5808: 
+  country_subdivision_id: 36
+  name: Rocky Mountain House
+  country_id: 43
+  id: 5808
+hinton_17781: 
+  country_subdivision_id: 36
+  name: Hinton
+  country_id: 43
+  id: 17781
+oliver_14315: 
+  country_subdivision_id: 43
+  name: Oliver
+  country_id: 43
+  id: 14315
+labrador_city_15364: 
+  country_subdivision_id: 41
+  name: Labrador City
+  country_id: 43
+  id: 15364
+sarnia_3479: 
+  country_subdivision_id: 37
+  name: Sarnia
+  country_id: 43
+  id: 3479
+tecumseh_14082: 
+  country_subdivision_id: 37
+  name: Tecumseh
+  country_id: 43
+  id: 14082
+val_belair_14612: 
+  country_subdivision_id: 35
+  name: Val-Belair
+  country_id: 43
+  id: 14612
+eganville_5891: 
+  country_subdivision_id: 37
+  name: Eganville
+  country_id: 43
+  id: 5891
+sudbury_5917: 
+  country_subdivision_id: 37
+  name: Sudbury
+  country_id: 43
+  id: 5917
+port_perry_16311: 
+  country_subdivision_id: 37
+  name: Port Perry
+  country_id: 43
+  id: 16311
+cold_lake_5795: 
+  country_subdivision_id: 36
+  name: Cold Lake
+  country_id: 43
+  id: 5795
+saint_albert_13011: 
+  country_subdivision_id: 36
+  name: Saint Albert
+  country_id: 43
+  id: 13011
+merritt_15280: 
+  country_subdivision_id: 43
+  name: Merritt
+  country_id: 43
+  id: 15280
+shearwater_18554: 
+  country_subdivision_id: 43
+  name: Shearwater
+  country_id: 43
+  id: 18554
+ormstown_12655: 
+  country_subdivision_id: 35
+  name: Ormstown
+  country_id: 43
+  id: 12655
+heriot_bay_13731: 
+  country_subdivision_id: 43
+  name: Heriot Bay
+  country_id: 43
+  id: 13731
+victoria_5824: 
+  country_subdivision_id: 43
+  name: Victoria
+  country_id: 43
+  id: 5824
+saint._joachim_18670: 
+  country_subdivision_id: 37
+  name: Saint. Joachim
+  country_id: 43
+  id: 18670
+sidney_12452: 
+  country_subdivision_id: 43
+  name: Sidney
+  country_id: 43
+  id: 12452
+comber_18669: 
+  country_subdivision_id: 37
+  name: Comber
+  country_id: 43
+  id: 18669
+nepean_12656: 
+  country_subdivision_id: 37
+  name: Nepean
+  country_id: 43
+  id: 12656
+dawson_city_5966: 
+  country_subdivision_id: 815
+  name: Dawson City
+  country_id: 43
+  id: 5966
+the_pas_41996: 
+  country_subdivision_id: 38
+  name: The Pas
+  country_id: 43
+  id: 41996
+chicoutimi_5929: 
+  country_subdivision_id: 35
+  name: Chicoutimi
+  country_id: 43
+  id: 5929
+williams_lake_5825: 
+  country_subdivision_id: 43
+  name: Williams Lake
+  country_id: 43
+  id: 5825
+amqui_15029: 
+  country_subdivision_id: 35
+  name: Amqui
+  country_id: 43
+  id: 15029
+saint_jrme_15251: 
+  country_subdivision_id: 35
+  name: Saint-Jrme
+  country_id: 43
+  id: 15251
+edson_15822: 
+  country_subdivision_id: 36
+  name: Edson
+  country_id: 43
+  id: 15822
+strathmore_13435: 
+  country_subdivision_id: 36
+  name: Strathmore
+  country_id: 43
+  id: 13435
+verdun_14616: 
+  country_subdivision_id: 35
+  name: Verdun
+  country_id: 43
+  id: 14616
+belleville_5884: 
+  country_subdivision_id: 37
+  name: Belleville
+  country_id: 43
+  id: 5884
+grand_forks_42265: 
+  country_subdivision_id: 43
+  name: Grand Forks
+  country_id: 43
+  id: 42265
+whitehorse_5975: 
+  country_subdivision_id: 815
+  name: Whitehorse
+  country_id: 43
+  id: 5975
+lively_13905: 
+  country_subdivision_id: 37
+  name: Lively
+  country_id: 43
+  id: 13905
+richmond_hill_13682: 
+  country_subdivision_id: 37
+  name: Richmond Hill
+  country_id: 43
+  id: 13682
+coaldale_15475: 
+  country_subdivision_id: 36
+  name: Coaldale
+  country_id: 43
+  id: 15475
+faro_5967: 
+  country_subdivision_id: 815
+  name: Faro
+  country_id: 43
+  id: 5967
+caledon_17992: 
+  country_subdivision_id: 37
+  name: Caledon
+  country_id: 43
+  id: 17992
+dundalk_15663: 
+  country_subdivision_id: 37
+  name: Dundalk
+  country_id: 43
+  id: 15663
+dunrobin_13107: 
+  country_subdivision_id: 37
+  name: Dunrobin
+  country_id: 43
+  id: 13107
+sydney_5879: 
+  country_subdivision_id: 39
+  name: Sydney
+  country_id: 43
+  id: 5879
+keene_18407: 
+  country_subdivision_id: 37
+  name: Keene
+  country_id: 43
+  id: 18407
+summerside_5925: 
+  country_subdivision_id: 45
+  name: Summerside
+  country_id: 43
+  id: 5925
+owen_sound_3473: 
+  country_subdivision_id: 37
+  name: Owen Sound
+  country_id: 43
+  id: 3473
+medicine_hat_5805: 
+  country_subdivision_id: 36
+  name: Medicine Hat
+  country_id: 43
+  id: 5805
+courtice_12350: 
+  country_subdivision_id: 37
+  name: Courtice
+  country_id: 43
+  id: 12350
+dalhousie_16665: 
+  country_subdivision_id: 42
+  name: Dalhousie
+  country_id: 43
+  id: 16665
+montmagny_14575: 
+  country_subdivision_id: 35
+  name: Montmagny
+  country_id: 43
+  id: 14575
+crofton_15396: 
+  country_subdivision_id: 43
+  name: Crofton
+  country_id: 43
+  id: 15396
+courtenay_3454: 
+  country_subdivision_id: 43
+  name: Courtenay
+  country_id: 43
+  id: 3454
+princeton_42005: 
+  country_subdivision_id: 43
+  name: Princeton
+  country_id: 43
+  id: 42005
+saint_joseph_de_sorel_17563: 
+  country_subdivision_id: 35
+  name: Saint-Joseph-de-Sorel
+  country_id: 43
+  id: 17563
+swift_current_17188: 
+  country_subdivision_id: 40
+  name: Swift Current
+  country_id: 43
+  id: 17188
+val_d_or_5944: 
+  country_subdivision_id: 35
+  name: Val-d'Or
+  country_id: 43
+  id: 5944
+new_waterford_16899: 
+  country_subdivision_id: 39
+  name: New Waterford
+  country_id: 43
+  id: 16899
+saint_rmi_12750: 
+  country_subdivision_id: 35
+  name: Saint-Rmi
+  country_id: 43
+  id: 12750
+listowel_12798: 
+  country_subdivision_id: 37
+  name: Listowel
+  country_id: 43
+  id: 12798
+sainte_victoire_17562: 
+  country_subdivision_id: 35
+  name: Sainte-Victoire
+  country_id: 43
+  id: 17562
+quebec_3477: 
+  country_subdivision_id: 35
+  name: Quebec
+  country_id: 43
+  id: 3477
+harrowsmith_18864: 
+  country_subdivision_id: 37
+  name: Harrowsmith
+  country_id: 43
+  id: 18864
+florenceville_14345: 
+  country_subdivision_id: 42
+  name: Florenceville
+  country_id: 43
+  id: 14345
+chateauguay_14232: 
+  country_subdivision_id: 35
+  name: Chateauguay
+  country_id: 43
+  id: 14232
+white_rock_13717: 
+  country_subdivision_id: 43
+  name: White Rock
+  country_id: 43
+  id: 13717
+niagara_falls_5904: 
+  country_subdivision_id: 37
+  name: Niagara Falls
+  country_id: 43
+  id: 5904
+prevost_16100: 
+  country_subdivision_id: 35
+  name: Prevost
+  country_id: 43
+  id: 16100
+joliette_15711: 
+  country_subdivision_id: 35
+  name: Joliette
+  country_id: 43
+  id: 15711
+dauphin_5856: 
+  country_subdivision_id: 38
+  name: Dauphin
+  country_id: 43
+  id: 5856
+morinville_16163: 
+  country_subdivision_id: 36
+  name: Morinville
+  country_id: 43
+  id: 16163
+st._catharines_5914: 
+  country_subdivision_id: 37
+  name: St. Catharines
+  country_id: 43
+  id: 5914
+leduc_13904: 
+  country_subdivision_id: 36
+  name: Leduc
+  country_id: 43
+  id: 13904
+sauble_beach_15484: 
+  country_subdivision_id: 37
+  name: Sauble Beach
+  country_id: 43
+  id: 15484
+legal_12489: 
+  country_subdivision_id: 36
+  name: Legal
+  country_id: 43
+  id: 12489
+black_creek_11879: 
+  country_subdivision_id: 43
+  name: Black Creek
+  country_id: 43
+  id: 11879
+fort_saskatchewan_18014: 
+  country_subdivision_id: 36
+  name: Fort Saskatchewan
+  country_id: 43
+  id: 18014
+ingonish_16342: 
+  country_subdivision_id: 39
+  name: Ingonish
+  country_id: 43
+  id: 16342
+enderby_14401: 
+  country_subdivision_id: 43
+  name: Enderby
+  country_id: 43
+  id: 14401
+maple_ridge_12163: 
+  country_subdivision_id: 43
+  name: Maple Ridge
+  country_id: 43
+  id: 12163
+hay_river_18505: 
+  country_subdivision_id: 46
+  name: Hay River
+  country_id: 43
+  id: 18505
+cantley_13574: 
+  country_subdivision_id: 35
+  name: Cantley
+  country_id: 43
+  id: 13574
+vancouver_1320: 
+  country_subdivision_id: 43
+  name: Vancouver
+  country_id: 43
+  id: 1320
+aylmer_14828: 
+  country_subdivision_id: 37
+  name: Aylmer
+  country_id: 43
+  id: 14828
+brossard_16823: 
+  country_subdivision_id: 35
+  name: Brossard
+  country_id: 43
+  id: 16823
+cowansville_16976: 
+  country_subdivision_id: 35
+  name: Cowansville
+  country_id: 43
+  id: 16976
+coronation_5796: 
+  country_subdivision_id: 36
+  name: Coronation
+  country_id: 43
+  id: 5796
+golden_17993: 
+  country_subdivision_id: 43
+  name: Golden
+  country_id: 43
+  id: 17993
+altona_13884: 
+  country_subdivision_id: 38
+  name: Altona
+  country_id: 43
+  id: 13884
+fort_frances_12471: 
+  country_subdivision_id: 37
+  name: Fort Frances
+  country_id: 43
+  id: 12471
+whitecourt_5811: 
+  country_subdivision_id: 36
+  name: Whitecourt
+  country_id: 43
+  id: 5811
+granby_3459: 
+  country_subdivision_id: 35
+  name: Granby
+  country_id: 43
+  id: 3459
+saanichton_16295: 
+  country_subdivision_id: 43
+  name: Saanichton
+  country_id: 43
+  id: 16295
+carleton_place_13889: 
+  country_subdivision_id: 37
+  name: Carleton Place
+  country_id: 43
+  id: 13889
+havelock_16862: 
+  country_subdivision_id: 37
+  name: Havelock
+  country_id: 43
+  id: 16862
+laval_13112: 
+  country_subdivision_id: 35
+  name: Laval
+  country_id: 43
+  id: 13112
+baltimore_17278: 
+  country_subdivision_id: 37
+  name: Baltimore
+  country_id: 43
+  id: 17278
+gloucester_12762: 
+  country_subdivision_id: 37
+  name: Gloucester
+  country_id: 43
+  id: 12762
+elliot_lake_13477: 
+  country_subdivision_id: 37
+  name: Elliot lake
+  country_id: 43
+  id: 13477
+saint_eustache_18973: 
+  country_subdivision_id: 35
+  name: Saint-Eustache
+  country_id: 43
+  id: 18973
+port_moody_15416: 
+  country_subdivision_id: 43
+  name: Port Moody
+  country_id: 43
+  id: 15416
+terrace_5823: 
+  country_subdivision_id: 43
+  name: Terrace
+  country_id: 43
+  id: 5823
+chatham_12313: 
+  country_subdivision_id: 37
+  name: Chatham
+  country_id: 43
+  id: 12313
+high_level_5800: 
+  country_subdivision_id: 36
+  name: High Level
+  country_id: 43
+  id: 5800
+staples_18668: 
+  country_subdivision_id: 37
+  name: Staples
+  country_id: 43
+  id: 18668
+lac_la_biche_5802: 
+  country_subdivision_id: 36
+  name: Lac La Biche
+  country_id: 43
+  id: 5802
+exeter_17346: 
+  country_subdivision_id: 37
+  name: Exeter
+  country_id: 43
+  id: 17346
+greenfield_park_16968: 
+  country_subdivision_id: 35
+  name: Greenfield Park
+  country_id: 43
+  id: 16968
+st._john_s_1293: 
+  country_subdivision_id: 41
+  name: St. John's
+  country_id: 43
+  id: 1293
+sainte_foy_15093: 
+  country_subdivision_id: 35
+  name: Sainte-Foy
+  country_id: 43
+  id: 15093

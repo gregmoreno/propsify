@@ -1,0 +1,15 @@
+- form_for(:invitation, :url => invitations_path(voteable)) do |f|
+  %table.horizontal{:cellpadding => 0, :cellspacing => 0, :border => 0}
+    %tr.header
+      %td
+        %label Name:
+      %td
+        %label Email:
+      %td
+    %tr
+      %td.text
+        = f.text_field :name, :class => 'text'
+      %td.text
+        = f.text_field :email, :class => 'text'
+      %td
+        = submit_tag 'Send request', :class => "submit-button"

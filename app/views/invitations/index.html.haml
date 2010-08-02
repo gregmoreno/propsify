@@ -1,0 +1,16 @@
+- single_column(:class => 'topfold') do
+  %table{:cellpadding => 0, :cellspacing => 0, :border => 0, :width => '100%'}
+    %tr
+      %td{:width => "70%"}
+        %h2= voteable_name(@voteable)
+        %p.actions
+        = link_to('&laquo; Return to listing', voteables_path(@voteable)) 
+      %td
+        = render :partial => 'ratings/info', :locals => { :voteable => @voteable }
+
+- single_column do
+  = render :partial => 'invitations/form', :locals => { :voteable => @voteable }
+  - if @invitations.any?
+    = render :partial => 'invitations/listing', :locals => { :invitations => @invitations }
+
+

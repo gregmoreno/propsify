@@ -1,0 +1,6 @@
+development:
+  wordforms:  config/wordforms.txt 
+production:
+  pid_file: tmp/pids/searchd.production.pid
+  wordforms:  config/wordforms.txt 
+

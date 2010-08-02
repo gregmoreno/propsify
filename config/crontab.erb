@@ -1,0 +1,3 @@
+# Remove this job for now
+0  */2 * * * cd <%= current_path %> && rake RAILS_ENV=<%= rails_env %> setup:badges:update
+*/5  * * * * cd <%= current_path %> && rake RAILS_ENV=<%= rails_env %> notifications:requests

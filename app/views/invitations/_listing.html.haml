@@ -1,0 +1,25 @@
+.listing
+  %table{:cellpadding => 0, :cellspacing => 0, :border => 0}
+    %tr.header
+      %td Status
+      %td Customer
+      %td Last sent
+    - invitations.each do |invitation|
+      %tr
+        %td.status{:width => '10%'}
+          %span.status= render_invitation_status(invitation)
+        %td
+          %h3= render_user(invitation.created_for)
+          %h5= render_email(invitation.created_for.email)
+        %td
+          = render_date(invitation.updated_at)
+
+          .actions
+            %span.item= render_delete_link(invitation)
+
+            - if permitted_to?(:manage, invitation)
+              %span.item= link_to('Request link', accept_invitation_url(:token => invitation.token))
+
+            - if permitted_to?(:manage, invitation) && (invitation.sent?)
+              %span.last= link_to('Resend', resend_invitation_path(invitation), :method => :post)
+          

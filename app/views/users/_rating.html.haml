@@ -1,0 +1,14 @@
+#rating
+  .wrap
+    .value
+      %h1
+        - votes = @user.votes_for
+        - if votes > 0
+          %span.positive= "100"#"+#{votes}"
+        - elsif votes < 0
+          %span.negative= "-#{votes}"
+        - else
+          %span.zero= "0"
+    .category Recommendations
+ 
+

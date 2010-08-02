@@ -1,0 +1,7 @@
+- [:specialties, :certifications, :affiliations, :trainings, :educations, :languages].each do |f|
+  %p
+    = doctor_profile.label f
+    %br
+    = doctor_profile.text_area f, :class => 'brief'
+
+

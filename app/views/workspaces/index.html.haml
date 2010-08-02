@@ -1,0 +1,5 @@
+- single_column do
+  - if @workspaces.any?
+    = render :partial => 'workspaces/listing'
+  - else
+    = render :partial => 'workspaces/start'    

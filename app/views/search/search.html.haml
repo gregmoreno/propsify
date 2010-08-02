@@ -1,0 +1,21 @@
+- @page_title, @page_desc = search_page_info
+
+- single_column do
+  %h1 
+    %span.number= pluralize(@collection.total_entries, 'recommendation') 
+    = search_info
+
+- main_column do 
+  .listing
+    - @collection.each do |item|
+      = render :partial => "#{item.class.name.tableize}/item", :object => item 
+    = paginate(@collection)
+
+
+- single_column do
+  = render :partial => 'search/cities'
+
+
+
+
+

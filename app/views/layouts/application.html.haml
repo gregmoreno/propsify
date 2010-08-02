@@ -1,0 +1,35 @@
+!!! Strict
+%html
+  %head
+    - page_title, page_desc = page_info
+    %title= page_title
+    %meta{:name => "description", :content => page_desc}
+    %meta{:name => "verify-v1", :content => "nWTLojZAxQP+IKZmDVn5/o4T23oXrcEiRDpEmM33P2A="} 
+    %meta{:name => "google-site-verification", :content => "fu6Fc7syM9rk1Y7_SWoO8lvpV-3sZloxBj5eXcd6xs4"}
+
+    = stylesheet_link_tag 'reset', 'clear', 'screen', 'forms'
+    -# Only load what is needed. e.g. map is not needed in other pages
+    = render 'layouts/resources'
+    -#%script{:type => 'text/javascript', :src => "http://maps.google.com/maps?file=api&amp;v=2&amp;key=#{GeoKit::Geocoders::google}"}
+
+  %body
+    #header
+      .wrapper
+        = render 'layouts/logo'
+        
+    #nav    
+      = render 'layouts/header'
+
+    = yield(:pitch)
+
+    #content
+      .wrapper
+        = flash_notice
+        = yield
+    
+    #footer
+      = render "layouts/footer"
+
+    = javascript_include_tag 'pages/public'
+    = render 'layouts/analytics'
+    = render 'layouts/getsatisfaction'

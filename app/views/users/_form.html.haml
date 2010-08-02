@@ -1,0 +1,33 @@
+- form_for @user do |f|
+  %table
+    %tr
+      %td.label
+        = label_tag :name, 'Nickname'
+      %td.field
+        = f.text_field :name, :class => 'title'
+        %br
+        %span.note Real ones preferred
+    %tr
+      %td.label
+        = label_tag :email
+      %td.field
+        = f.text_field :email, :class => 'title'
+        %br
+        %span.note Will not be published &mdash; we promise
+    %tr
+      %td.label 
+        = label_tag :password
+      %td.field
+        = f.password_field :password, :class => 'title'
+    %tr
+      %td.label 
+        = label_tag :password_confirmation, 'Confirm password'
+      %td.field
+        = f.password_field :password_confirmation, :class => 'title'
+    %tr
+      %td
+        &nbsp;
+      %td
+        = submit_tag  @user.new_record? ? 'Sign up' : 'Save changes', :class => "submit-button"
+
+= javascript_include_tag 'pages/signup'

@@ -1,0 +1,11 @@
+.rating
+  .positive
+    - path = File.join('/system', 'badges', "#{voteable.id}-120x.jpg")
+    - unless File.exists?(File.join(RAILS_ROOT, 'public', path))
+      - path = File.join('/images', 'ratings', "default-120x.jpg")
+
+    - title =  "#{voteable.votes_up} recommendations for #{voteable_name(voteable)}, #{voteable.location.city.name}"
+    - image = image_tag(path, :alt => title)
+    = link_to(image, voteable_path(voteable), :title => title)
+
+

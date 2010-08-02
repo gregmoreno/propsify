@@ -1,0 +1,11 @@
+gyms > gym 
+clubs > gym 
+club > gym
+centres > centre
+center > centre
+centers > centre
+fitnes > fitness
+naturopath > naturopathic 
+chiropractor > chiropractic
+dentist > dental
+dentists > dental

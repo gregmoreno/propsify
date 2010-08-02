@@ -1,0 +1,25 @@
+- single_column do 
+  %h3 You've got mail!
+  %p
+    We just sent an email to 
+    %strong= "#{current_user.email}."
+
+  %p
+    You can safely ignore this email for now but we request you
+    read the email in the next couple of days.
+
+  %p
+    = link_to 'Next: Setup your profile', new_user_profile_path(current_user)
+
+  %h4 What's inside this email?
+  %ol
+    %li
+      An activation link to make sure we have the right email for you.
+    %li
+      A few instructions and reminders.
+    %li
+      An our mandatory welcome message.
+
+  %h4 Why the need for an activation?
+    
+    

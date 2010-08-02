@@ -1,0 +1,10 @@
+.city_list
+  %h4 Search in other cities
+  %table.index
+    - n = METRO_CITIES.size / 4
+    %tr
+      - METRO_CITIES.each_slice(n) do |a|
+        %td
+          - a.each do |city|
+            %p= link_to city.titleize, city_path(:city => city.parameterize), :title => "#{city} recommendations"
+

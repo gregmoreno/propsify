@@ -1,0 +1,13 @@
+- user.locations.each do |location|
+  .location
+    %h5= location_name(location)
+    = location_address(location)
+    .schedule
+      = location_schedule(location)
+    .actions
+      = link_to 'edit',  edit_user_location_path(user, location)
+      \/
+      = link_to 'delete', user_location_path(user, location), :method => :delete
+
+= link_to 'Add schedule and location', new_user_location_path(user)
+

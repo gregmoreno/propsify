@@ -1,0 +1,36 @@
+- @page_title, @page_desc = city_page_info 
+
+- single_column do
+  = render 'search/form'
+  %h3.section_title 
+    - if @collection.any?
+      %span.number= number_with_delimiter(@collection.total_entries)
+      recommendations
+    - else
+      Recommendations
+    in
+    = render_city(City.current)
+
+- main_column do
+  .listing
+    - @collection.each do |item|
+      = render :partial => "#{item.class.name.tableize}/item", :object => item 
+  = paginate(@collection)
+
+
+    
+/
+  - single_column do 
+    = render :partial => 'search/cities'
+
+
+-# sidebar_column do
+-# #friendfeed
+-#   %iframe{:src => "http://friendfeed.com/search?q=#{City.current.name.downcase}+fitness%2Chealth&embed=1"} 
+-
+-# #twitterfeed
+-# = js_twitter_params
+-# = stylesheet_link_tag 'http://widgets.twimg.com/j/1/widget'
+-# = javascript_include_tag 'http://widgets.twimg.com/j/1/widget'
+-# = javascript_include_tag 'pages/twitter' 
+

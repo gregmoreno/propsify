@@ -1,0 +1,12 @@
+%h1
+  Auto-Tweet your recommendations
+
+- if @twitter_account && @twitter_account.authorized?
+  %p.note
+    Your Twitter status is automatically updated with newly-posted Propsify recommendations.
+    = link_to 'Disable this feature.', polymorphic_twitter_account_path, :method => :delete
+
+- else
+  %p.note
+    Sign in to your Twitter account and allow Propsify to automatically update your Twitter status with newly-posted recommendations.
+  = link_to image_tag('buttons/Sign-in-with-Twitter-lighter.png'), polymorphic_edit_twitter_account_path

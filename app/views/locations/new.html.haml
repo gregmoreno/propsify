@@ -1,0 +1,9 @@
+- main_column do
+  %h3 Add a location for your clinic
+
+  = flash_error
+
+  - form_for @location, :url => user_locations_path  do |f|
+    = render :partial => 'form', :locals => { :f => f }
+    %p
+      = submit_tag 'Add location', :class => "submit-button"
