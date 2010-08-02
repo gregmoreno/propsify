@@ -19,3 +19,21 @@ rdoc
 pkg
 
 ## PROJECT::SPECIFIC
+config/database.yml
+config/twitter.yml
+config/*.sphinx.conf
+log
+log/*.log
+log/*.pid
+tmp/**/*
+tmp
+vendor/plugins/**/.git
+vendor/gems/**/.gitignore
+public/system
+db/sphinx/**/*
+*.o
+*.so
+Makefile
+*.bundle
+code_update.tar.gz
+.specification
