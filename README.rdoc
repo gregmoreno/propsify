@@ -31,4 +31,4 @@ Lastly, setup your /etc/hosts
 
 * Eumir Gaspar http://workingwithrails.com/person/19554-eumir-gaspar 
 * Neil Decapia http://neildecapia.wordpress.com
-* Greg Moreno http:://gregmoreno.ca
+* Greg Moreno http://gregmoreno.ca
