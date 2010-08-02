@@ -29,6 +29,6 @@ Lastly, setup your /etc/hosts
 
 == Developers
 
-Eumir Gaspar http://workingwithrails.com/person/19554-eumir-gaspar 
-Neil Decapia http://neildecapia.wordpress.com
-Greg Moreno http:://gregmoreno.ca
+* Eumir Gaspar http://workingwithrails.com/person/19554-eumir-gaspar 
+* Neil Decapia http://neildecapia.wordpress.com
+* Greg Moreno http:://gregmoreno.ca
