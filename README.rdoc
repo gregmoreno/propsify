@@ -1,17 +1,34 @@
-= propsify
+= Propsify
 
-Description goes here.
+A website and a tool for including customer recommendations
+in your business website.
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== Requirements
 
-== Copyright
+* rails 2.3.x
+* postgresql
 
-Copyright (c) 2010 Greg Moreno. See LICENSE for details.
+== Setup your environment
+
+1. Create your own config/database.yml. DO NOT add it to the repo
+2. Install and setup sphinx. See http://freelancing-god.github.com/ts/en/ 
+3. Setup and seed your db
+
+* rake db:migrate
+* rake enumerations:reload
+* rake setup:root PW=your_app_admin_password  
+
+For local setup, you can seed your db with sample data with:
+
+    rake sample:workspaces        # loads spec/fixtures/workspaces.csv
+    rake sample:workspaces:votes  # adds random votes to a workspace
+
+Lastly, setup your /etc/hosts
+
+    127.0.0.1   propsify.dev
+
+== Developers
+
+Eumir Gaspar http://workingwithrails.com/person/19554-eumir-gaspar 
+Neil Decapia http://neildecapia.wordpress.com
+Greg Moreno http:://gregmoreno.ca
