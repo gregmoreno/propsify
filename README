@@ -12,7 +12,6 @@ in your business website.
 
 1. Create your own config/database.yml. DO NOT add it to the repo
 2. Create config/twitter.yml.  See config/twitter.yml.example
-2. Install and setup sphinx. See http://freelancing-god.github.com/ts/en/ 
 3. Setup and seed your db
 
 * rake db:migrate
@@ -24,7 +23,17 @@ For local setup, you can seed your db with sample data with:
     rake sample:workspaces        # loads spec/fixtures/workspaces.csv
     rake sample:workspaces:votes  # adds random votes to a workspace
 
-Lastly, setup your /etc/hosts
+4. Setup sphinx
+
+For installation instructions see http://freelancing-god.github.com/ts/en/installing_sphinx.html
+
+Afterwards, do:
+
+* rake ts:config
+* rake ts:in 
+* rake ts:start
+
+5. Lastly, setup your /etc/hosts
 
     127.0.0.1   propsify.dev
 
