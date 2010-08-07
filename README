@@ -11,6 +11,7 @@ in your business website.
 == Setup your environment
 
 1. Create your own config/database.yml. DO NOT add it to the repo
+2. Create config/twitter.yml.  See config/twitter.yml.example
 2. Install and setup sphinx. See http://freelancing-god.github.com/ts/en/ 
 3. Setup and seed your db
 
